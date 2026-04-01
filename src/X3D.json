@@ -3,6 +3,9 @@
   "name": "",
   "patterns": [
     {
+      "include": "#blockComment"
+    },
+    {
       "include": "#keywords"
     },
     {
@@ -80,6 +83,21 @@
           "match": "^(\\s*)"
         }
       ]
+    },
+    "blockComment": {
+      "name": "comment.block.X3D",
+      "begin": "#\\/\\*",
+      "end": "\\*\\/#",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.begin.X3D"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.end.X3D"
+        }
+      }
     },
     "strings": {
       "name": "string.quoted.double.X3D",
