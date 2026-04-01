@@ -32,10 +32,6 @@
           "match": "\\b(PROFILE|COMPONENT|UNIT|META|EXTERNPROTO|PROTO|IS|DEF|USE|ROUTE|TO|IMPORT|EXPORT|AS|DESCRIPTION)\\b"
         },
         {
-          "name": "strong",
-          "match": ":"
-        },
-        {
           "name": "constant.character",
           "match": "\\b(TRUE|FALSE|NULL)\\b"
         },
@@ -67,7 +63,7 @@
         },
         {
           "name": "strong",
-          "match": "\\b\\.\\b"
+          "match": "[:\\.]"
         },
         {
           "name": "variable.parameter",
