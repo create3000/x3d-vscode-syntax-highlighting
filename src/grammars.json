@@ -21,23 +21,26 @@
           "match": "#.+$"
         },
         {
+          "match": "\\b(DEF)\\s+(\\w+)\\b",
+          "captures": {
+            "1": { "name": "keyword.control" },
+            "2": { "name": "variable.parameter" }
+          }
+        },
+        {
           "name": "keyword.control",
-          "match": "\\b(PROFILE|COMPONENT|UNIT|META|EXTERNPROTO|PROTO|IS|DEF|USE|ROUTE|TO|IMPORT|EXPORT|DESCRIPTION)\\b"
+          "match": "\\b(PROFILE|COMPONENT|UNIT|META|EXTERNPROTO|PROTO|IS|DEF|USE|ROUTE|TO|IMPORT|EXPORT|AS|DESCRIPTION)\\b"
         },
         {
-          "name": "variable.parameter",
-          "match": "\\b(Core|Interchange|Interactive|Immersive|Full|MPEG-4)\\b"
-        },
-        {
-          "name": "variable.parameter",
-          "match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|Navigation|Networking|NURBS|ParticleSystems|Picking|PointingDeviceSensor|Shaders|TextureProjection|Rendering|RigidBodyPhysics|Scripting|Shape|Sound|Text|Texturing|Texturing3D|Time|VolumeRendering|X_ITE)\\b"
+          "name": "strong",
+          "match": ":"
         },
         {
           "name": "constant.character",
           "match": "\\b(TRUE|FALSE|NULL)\\b"
         },
         {
-          "name": "variable.language",
+          "name": "keyword.control",
           "match": "\\b(initializeOnly|inputOutput|inputOnly|outputOnly|field|eventIn|eventOut|exposedField)\\b"
         },
         {
@@ -51,8 +54,24 @@
           }
         },
         {
+          "name": "variable.parameter",
+          "match": "\\b(Core|Interchange|Interactive|Immersive|Full|MPEG-4)\\b"
+        },
+        {
+          "name": "variable.parameter",
+          "match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|Navigation|Networking|NURBS|ParticleSystems|Picking|PointingDeviceSensor|Shaders|TextureProjection|Rendering|RigidBodyPhysics|Scripting|Shape|Sound|Text|Texturing|Texturing3D|Time|VolumeRendering|X_ITE)\\b"
+        },
+        {
           "name": "constant.numeric",
           "match": "\\b(?:0[xX][\\da-fA-F]+|[+-]?(?:(?:(?:\\d*\\.\\d+)|(?:\\d+(?:\\.)?))(?:[eE][+-]?\\d+)?))\\b"
+        },
+        {
+          "name": "strong",
+          "match": "\\b\\.\\b"
+        },
+        {
+          "name": "variable.parameter",
+          "match": "(\\w+)"
         },
         {
           "name": "variable.parameter",
