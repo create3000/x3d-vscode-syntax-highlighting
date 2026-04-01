@@ -47,7 +47,8 @@
     "url": "https://www.patreon.com/X_ITE"
   },
   "scripts": {
-    "release": "node build/release.js"
+    "release": "node build/release.js",
+    "snippets": "node build/snippets.js"
   },
   "engines": {
     "vscode": "^1.14.0"
@@ -83,5 +84,9 @@
         "path": "./src/grammars.json"
       }
     ]
+  },
+  "devDependencies": {
+    "shell-tools": "^1.1.9",
+    "x_ite-node": "^2.0.10"
   }
 }

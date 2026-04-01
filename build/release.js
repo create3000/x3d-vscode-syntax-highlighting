@@ -5,74 +5,76 @@ const { systemSync, sh } = require ("shell-tools");
 
 function bump ()
 {
-	const current = sh (`npm pkg get version | sed 's/"//g'`) .trim ();
+   systemSync ("npm run snippets");
 
-	console .log (`Current version ${current}`);
+   const current = sh (`npm pkg get version | sed 's/"//g'`) .trim ();
+
+   console .log (`Current version ${current}`);
 
    try
-	{
-		const last = sh (`ls *.vsix`) .trim () .match (/(\d+\.\d+\.\d+)/) ?.[1];
+   {
+      const last = sh (`ls *.vsix`) .trim () .match (/(\d+\.\d+\.\d+)/) ?.[1];
 
-	   if (current !== last)
-   	   return;
-	}
-	catch (error)
-	{
-		console .error (error);
-	}
+      if (current !== last)
+         return;
+   }
+   catch (error)
+   {
+      console .error (error);
+   }
 
-	systemSync (`npm version patch --no-git-tag-version --force`);
+   systemSync (`npm version patch --no-git-tag-version --force`);
 
    const version = sh (`npm pkg get version | sed 's/"//g'`) .trim ();
 
-	console .log (`New version ${version}`);
+   console .log (`New version ${version}`);
 }
 
 function tags (version)
 {
-	systemSync (`git tag ${version}`);
-	systemSync (`git push origin --tags`);
+   systemSync (`git tag ${version}`);
+   systemSync (`git push origin --tags`);
 }
 
 function main ()
 {
    bump ();
 
-	console .log ("Waiting for confirmation ...");
+   console .log ("Waiting for confirmation ...");
 
-	const
-		version = sh (`npm pkg get version | sed 's/"//g'`) .trim (),
-		result  = systemSync (`zenity --question '--text=Do you really want to publish X_ITE VS Code Extension v${version} now?' --ok-label=Yes --cancel-label=No`);
+   const
+      version = sh (`npm pkg get version | sed 's/"//g'`) .trim (),
+      result  = systemSync (`zenity --question '--text=Do you really want to publish X_ITE VS Code Extension v${version} now?' --ok-label=Yes --cancel-label=No`);
 
-	if (result !== 0)
+   if (result !== 0)
    {
       systemSync ("git checkout -- package.json");
-		process .exit (1);
+      process .exit (1);
    }
 
-	console .log (`Publishing X_ITE VS Code Extension v${version} now.`);
+   console .log (`Publishing X_ITE VS Code Extension v${version} now.`);
 
-	// Commit everything and switch to main branch.
+   // Commit everything and switch to main branch.
 
-	systemSync (`git add -A`);
-	systemSync (`git commit -am 'Published version ${version}'`);
-	systemSync (`git push origin`);
-	systemSync (`git checkout main`);
-	systemSync (`git merge development`);
+   systemSync (`git add -A`);
+   systemSync (`git commit -am 'Published version ${version}'`);
+   systemSync (`git push origin`);
+   systemSync (`git checkout main`);
+   systemSync (`git merge development`);
 
-	// Publish extension.
+   // Publish extension.
 
    tags (version);
 
    systemSync ("rm *.vsix");
    systemSync ("vsce package");
-	systemSync (`git push origin`);
+   systemSync (`git push origin`);
 
-	// Switch back to development branch.
+   // Switch back to development branch.
 
-	systemSync (`git checkout development`);
-	systemSync (`git merge main`);
-	systemSync (`git push origin`);
+   systemSync (`git checkout development`);
+   systemSync (`git merge main`);
+   systemSync (`git push origin`);
 }
 
 main ();

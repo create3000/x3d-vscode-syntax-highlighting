@@ -1,0 +1,175 @@
+{
+  "X3D": {
+    "prefix": "#X3D",
+    "body": [
+      "#X3D V4.1 utf8"
+    ],
+    "description": "X3D V4.1"
+  },
+  "PROFILE": {
+    "prefix": "PROFILE",
+    "body": [
+      "PROFILE ${1:Interchange}"
+    ],
+    "description": ""
+  },
+  "COMPONENT": {
+    "prefix": "COMPONENT",
+    "body": [
+      "COMPONENT ${1:Interchange} : ${2:level}"
+    ],
+    "description": ""
+  },
+  "UNIT": {
+    "prefix": "UNIT",
+    "body": [
+      "UNIT"
+    ],
+    "description": ""
+  },
+  "META": {
+    "prefix": "META",
+    "body": [
+      "META"
+    ],
+    "description": ""
+  },
+  "EXTERNPROTO": {
+    "prefix": "EXTERNPROTO",
+    "body": [
+      "EXTERNPROTO ${1:name} [",
+      "]",
+      "\"${2:URL}\""
+    ],
+    "description": ""
+  },
+  "PROTO": {
+    "prefix": "PROTO",
+    "body": [
+      "PROTO ${1:name} [",
+      "]",
+      "{",
+      "}"
+    ],
+    "description": ""
+  },
+  "IS": {
+    "prefix": "IS",
+    "body": [
+      "IS"
+    ],
+    "description": ""
+  },
+  "DEF": {
+    "prefix": "DEF",
+    "body": [
+      "DEF"
+    ],
+    "description": ""
+  },
+  "USE": {
+    "prefix": "USE",
+    "body": [
+      "USE"
+    ],
+    "description": ""
+  },
+  "ROUTE": {
+    "prefix": "ROUTE",
+    "body": [
+      "ROUTE"
+    ],
+    "description": ""
+  },
+  "TO": {
+    "prefix": "TO",
+    "body": [
+      "TO"
+    ],
+    "description": ""
+  },
+  "IMPORT": {
+    "prefix": "IMPORT",
+    "body": [
+      "IMPORT"
+    ],
+    "description": ""
+  },
+  "EXPORT": {
+    "prefix": "EXPORT",
+    "body": [
+      "EXPORT"
+    ],
+    "description": ""
+  },
+  "AS": {
+    "prefix": "AS",
+    "body": [
+      "AS"
+    ],
+    "description": ""
+  },
+  "DESCRIPTION": {
+    "prefix": "DESCRIPTION",
+    "body": [
+      "DESCRIPTION"
+    ],
+    "description": ""
+  },
+  "initializeOnly": {
+    "prefix": "initializeOnly",
+    "body": [
+      "initializeOnly"
+    ],
+    "description": ""
+  },
+  "inputOutput": {
+    "prefix": "inputOutput",
+    "body": [
+      "inputOutput"
+    ],
+    "description": ""
+  },
+  "inputOnly": {
+    "prefix": "inputOnly",
+    "body": [
+      "inputOnly"
+    ],
+    "description": ""
+  },
+  "outputOnly": {
+    "prefix": "outputOnly",
+    "body": [
+      "outputOnly"
+    ],
+    "description": ""
+  },
+  "exposedField": {
+    "prefix": "exposedField",
+    "body": [
+      "exposedField"
+    ],
+    "description": ""
+  },
+  "field": {
+    "prefix": "field",
+    "body": [
+      "field"
+    ],
+    "description": ""
+  },
+  "eventIn": {
+    "prefix": "eventIn",
+    "body": [
+      "eventIn"
+    ],
+    "description": ""
+  },
+  "eventOut": {
+    "prefix": "eventOut",
+    "body": [
+      "eventOut"
+    ],
+    "description": ""
+  }
+}
