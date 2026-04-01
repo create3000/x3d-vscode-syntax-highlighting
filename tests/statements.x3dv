@@ -42,20 +42,22 @@ DEF NoComment2 Group { }
 # Another comment
 
 DEF Box1 Transform {
+  translation -3 0 0
   children Shape {
     appearance Appearance {
       material Material { }
     }
-    geometry Box { }
+    geometry DEF Geometry Box { }
   }
 }
 
 DEF Box2 Transform {
+  translation 3 0 0
   children Shape {
     appearance Appearance {
       material Material { }
     }
-    geometry Box { }
+    geometry USE Geometry
   }
 }
 
@@ -91,6 +93,7 @@ DEF Inline Inline {
 }
 
 ROUTE Box1.translation TO Box2.translation
+ROUTE Box2.translation TO Box1.translation
 
 IMPORT Inline.ExportedBox AS ImportedBox DESCRIPTION "ImportedBox Description"
 
