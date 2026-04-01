@@ -46,6 +46,10 @@ DEF Box Transform {
   }
 }
 
+DEF Custom Proto {
+  name "CustomProto"
+}
+
 Script {
   inputOutput SFBool   true TRUE
   inputOutput SFBool   false FALSE
