@@ -47,7 +47,9 @@ DEF Box Transform {
 }
 
 Script {
-  inputOutput SFBool   bool TRUE
+  inputOutput SFBool   true TRUE
+  inputOutput SFBool   false FALSE
+  inputOutput SFNode   null NULL
   inputOutput SFColor  color 1 0 0
   inputOutput SFString string "Hello World"
   inputOutput MFFloat  floats [ 0.123, 0.001, 123 ]
