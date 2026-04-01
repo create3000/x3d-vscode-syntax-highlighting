@@ -16,7 +16,7 @@
   "COMPONENT": {
     "prefix": "COMPONENT",
     "body": [
-      "COMPONENT ${1:Interchange} : ${2:level}"
+      "COMPONENT ${1:Core} : ${2:1}"
     ],
     "description": ""
   },
