@@ -37,7 +37,16 @@ PROTO Proto [
   }
 }
 
-DEF Box Transform {
+DEF Box1 Transform {
+  children Shape {
+    appearance Appearance {
+      material Material { }
+    }
+    geometry Box { }
+  }
+}
+
+DEF Box2 Transform {
   children Shape {
     appearance Appearance {
       material Material { }
@@ -71,5 +80,7 @@ function initialize ()
 }
 "
 }
+
+ROUTE Box1 .translation TO Box2 .translation
 
 EXPORT Box AS ExportedBox DESCRIPTION "ExportedBox Description"
