@@ -59,7 +59,7 @@ DEF Box2 Transform {
   }
 }
 
-DEF Custom Proto {
+DEF Instance Proto {
   name "CustomProto"
 }
 
