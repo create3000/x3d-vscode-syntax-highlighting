@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "variable.parameter",
-					"match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|Navigation|Networking|NURBS|ParticleSystems|Picking|PointingDeviceSensor|Shaders|TextureProjection|Rendering|RigidBodyPhysics|Scripting|Shape|Sound|Text|Texturing|Texturing3D|Time|VolumeRendering|WebXR|X_ITE)\\b"
+					"match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|Navigation|Networking|NURBS|ParticleSystems|Picking|PointingDeviceSensor|Shaders|TextureProjection|Rendering|RigidBodyPhysics|Scripting|Shape|Sound|Text|Texturing|Texturing3D|Time|VolumeRendering|X_ITE)\\b"
 				},
 				{
 					"name": "constant.character",
