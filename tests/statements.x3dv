@@ -62,12 +62,12 @@ Script {
   url "ecmascript:
 function initialize ()
 {
-  let s = '';
+  const a = [ ];
 
   for (const c of Browser .supportedComponents)
-    s += c .name + '|';
+    a .push (c .name);
 
-  console .log (s + '\\n');
+  console .log (a .sort () .join ('|'));
 }
 "
 }
