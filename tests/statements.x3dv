@@ -92,6 +92,6 @@ DEF Inline Inline {
 
 ROUTE Box1.translation TO Box2.translation
 
-IMPORT Inline.ExportedBox AS ImportedBox
+IMPORT Inline.ExportedBox AS ImportedBox DESCRIPTION "ImportedBox Description"
 
 EXPORT Box1 AS ExportedBox DESCRIPTION "ExportedBox Description"
