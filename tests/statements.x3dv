@@ -34,6 +34,9 @@ DEF Box Transform {
 }
 
 Script {
+   inputOutput SFBool bool TRUE
+   inputOutput SFColor color 1 0 0
+   inputOutput SFString string "Hello World"
    inputOutput MFFloat floats [ 0.123, 0.001, 123 ]
    inputOutput MFInt32 ints [ -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 
