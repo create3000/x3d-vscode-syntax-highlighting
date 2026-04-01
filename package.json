@@ -68,20 +68,20 @@
           ".wrl",
           ".x3dv"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./X3D.language-configuration.json"
       }
     ],
     "snippets": [
       {
         "language": "X3D",
-        "path": "./src/snippets.json"
+        "path": "./snippets/X3D.json"
       }
     ],
     "grammars": [
       {
         "language": "X3D",
         "scopeName": "source.x3d",
-        "path": "./src/X3D.json"
+        "path": "./syntaxes/X3D.tmLanguage.json"
       }
     ]
   },

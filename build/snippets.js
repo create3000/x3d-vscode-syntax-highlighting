@@ -10,8 +10,8 @@ async function main ()
    console .log ("Generating Snippets ...");
 
    const
-      template = path .resolve (__dirname, "../src/snippets-template.json"),
-      filename = path .resolve (__dirname, "../src/snippets.json"),
+      template = path .resolve (__dirname, "../snippets/X3D-template.json"),
+      filename = path .resolve (__dirname, "../snippets/X3D.json"),
       snippets = require (template);
 
    const
