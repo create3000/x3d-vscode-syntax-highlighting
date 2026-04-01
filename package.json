@@ -1,0 +1,87 @@
+{
+  "name": "x3d-vscode-syntax-highlighting",
+  "publisher": "create3000",
+  "displayName": "X3D Syntax Highlighting for VS Code",
+  "description": "Provides syntax highlighting for X3D and VRML files in Visual Studio Code.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "homepage": "https://github.com/create3000/x3d-vscode-syntax-highlighting",
+  "author": {
+    "name": "Holger Seelig",
+    "email": "holger.seelig@gmail.com",
+    "url": "https://github.com/create3000"
+  },
+  "contributors": [
+    {
+      "name": "Holger Seelig",
+      "email": "holger.seelig@gmail.com",
+      "url": "https://github.com/create3000"
+    },
+    {
+      "name": "Kagamma",
+      "url": "https://github.com/Kagamma"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/create3000/x3d-vscode-syntax-highlighting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/create3000/x3d-vscode-syntax-highlighting/issues"
+  },
+  "keywords": [
+    "X3D",
+    "X3DV",
+    "VRML",
+    "WRL",
+    "3D",
+    "syntax highlighting",
+    "tools"
+  ],
+  "galleryBanner": {
+    "color": "#383838",
+    "theme": "dark"
+  },
+  "sponsor": {
+    "url": "https://www.patreon.com/X_ITE"
+  },
+  "scripts": {
+    "release": "node build/release.js"
+  },
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "X3D",
+        "aliases": [
+          "X3D"
+        ],
+        "extensions": [
+          ".wrl",
+          ".x3dv"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "X3D",
+        "path": "./src/snippets.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "X3D",
+        "scopeName": "source.x3d",
+        "path": "./src/grammars.json"
+      }
+    ]
+  }
+}
