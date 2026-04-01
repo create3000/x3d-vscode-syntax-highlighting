@@ -477,1974 +477,1974 @@
     "prefix": "AcousticProperties",
     "description": "",
     "body": [
-      "AcousticProperties { }"
+      "AcousticProperties { ${1:}}"
     ]
   },
   "Analyser": {
     "prefix": "Analyser",
     "description": "",
     "body": [
-      "Analyser { }"
+      "Analyser { ${1:}}"
     ]
   },
   "Anchor": {
     "prefix": "Anchor",
     "description": "",
     "body": [
-      "Anchor { }"
+      "Anchor { ${1:}}"
     ]
   },
   "AnisotropyMaterialExtension": {
     "prefix": "AnisotropyMaterialExtension",
     "description": "",
     "body": [
-      "AnisotropyMaterialExtension { }"
+      "AnisotropyMaterialExtension { ${1:}}"
     ]
   },
   "Appearance": {
     "prefix": "Appearance",
     "description": "",
     "body": [
-      "Appearance { }"
+      "Appearance { ${1:}}"
     ]
   },
   "Arc2D": {
     "prefix": "Arc2D",
     "description": "",
     "body": [
-      "Arc2D { }"
+      "Arc2D { ${1:}}"
     ]
   },
   "ArcClose2D": {
     "prefix": "ArcClose2D",
     "description": "",
     "body": [
-      "ArcClose2D { }"
+      "ArcClose2D { ${1:}}"
     ]
   },
   "AudioClip": {
     "prefix": "AudioClip",
     "description": "",
     "body": [
-      "AudioClip { }"
+      "AudioClip { ${1:}}"
     ]
   },
   "AudioDestination": {
     "prefix": "AudioDestination",
     "description": "",
     "body": [
-      "AudioDestination { }"
+      "AudioDestination { ${1:}}"
     ]
   },
   "Background": {
     "prefix": "Background",
     "description": "",
     "body": [
-      "Background { }"
+      "Background { ${1:}}"
     ]
   },
   "BallJoint": {
     "prefix": "BallJoint",
     "description": "",
     "body": [
-      "BallJoint { }"
+      "BallJoint { ${1:}}"
     ]
   },
   "Billboard": {
     "prefix": "Billboard",
     "description": "",
     "body": [
-      "Billboard { }"
+      "Billboard { ${1:}}"
     ]
   },
   "BiquadFilter": {
     "prefix": "BiquadFilter",
     "description": "",
     "body": [
-      "BiquadFilter { }"
+      "BiquadFilter { ${1:}}"
     ]
   },
   "BlendMode": {
     "prefix": "BlendMode",
     "description": "",
     "body": [
-      "BlendMode { }"
+      "BlendMode { ${1:}}"
     ]
   },
   "BlendedVolumeStyle": {
     "prefix": "BlendedVolumeStyle",
     "description": "",
     "body": [
-      "BlendedVolumeStyle { }"
+      "BlendedVolumeStyle { ${1:}}"
     ]
   },
   "BooleanFilter": {
     "prefix": "BooleanFilter",
     "description": "",
     "body": [
-      "BooleanFilter { }"
+      "BooleanFilter { ${1:}}"
     ]
   },
   "BooleanSequencer": {
     "prefix": "BooleanSequencer",
     "description": "",
     "body": [
-      "BooleanSequencer { }"
+      "BooleanSequencer { ${1:}}"
     ]
   },
   "BooleanToggle": {
     "prefix": "BooleanToggle",
     "description": "",
     "body": [
-      "BooleanToggle { }"
+      "BooleanToggle { ${1:}}"
     ]
   },
   "BooleanTrigger": {
     "prefix": "BooleanTrigger",
     "description": "",
     "body": [
-      "BooleanTrigger { }"
+      "BooleanTrigger { ${1:}}"
     ]
   },
   "BoundaryEnhancementVolumeStyle": {
     "prefix": "BoundaryEnhancementVolumeStyle",
     "description": "",
     "body": [
-      "BoundaryEnhancementVolumeStyle { }"
+      "BoundaryEnhancementVolumeStyle { ${1:}}"
     ]
   },
   "BoundedPhysicsModel": {
     "prefix": "BoundedPhysicsModel",
     "description": "",
     "body": [
-      "BoundedPhysicsModel { }"
+      "BoundedPhysicsModel { ${1:}}"
     ]
   },
   "Box": {
     "prefix": "Box",
     "description": "",
     "body": [
-      "Box { }"
+      "Box { ${1:}}"
     ]
   },
   "BufferAudioSource": {
     "prefix": "BufferAudioSource",
     "description": "",
     "body": [
-      "BufferAudioSource { }"
+      "BufferAudioSource { ${1:}}"
     ]
   },
   "CADAssembly": {
     "prefix": "CADAssembly",
     "description": "",
     "body": [
-      "CADAssembly { }"
+      "CADAssembly { ${1:}}"
     ]
   },
   "CADFace": {
     "prefix": "CADFace",
     "description": "",
     "body": [
-      "CADFace { }"
+      "CADFace { ${1:}}"
     ]
   },
   "CADLayer": {
     "prefix": "CADLayer",
     "description": "",
     "body": [
-      "CADLayer { }"
+      "CADLayer { ${1:}}"
     ]
   },
   "CADPart": {
     "prefix": "CADPart",
     "description": "",
     "body": [
-      "CADPart { }"
+      "CADPart { ${1:}}"
     ]
   },
   "CartoonVolumeStyle": {
     "prefix": "CartoonVolumeStyle",
     "description": "",
     "body": [
-      "CartoonVolumeStyle { }"
+      "CartoonVolumeStyle { ${1:}}"
     ]
   },
   "ChannelMerger": {
     "prefix": "ChannelMerger",
     "description": "",
     "body": [
-      "ChannelMerger { }"
+      "ChannelMerger { ${1:}}"
     ]
   },
   "ChannelSelector": {
     "prefix": "ChannelSelector",
     "description": "",
     "body": [
-      "ChannelSelector { }"
+      "ChannelSelector { ${1:}}"
     ]
   },
   "ChannelSplitter": {
     "prefix": "ChannelSplitter",
     "description": "",
     "body": [
-      "ChannelSplitter { }"
+      "ChannelSplitter { ${1:}}"
     ]
   },
   "Circle2D": {
     "prefix": "Circle2D",
     "description": "",
     "body": [
-      "Circle2D { }"
+      "Circle2D { ${1:}}"
     ]
   },
   "ClearcoatMaterialExtension": {
     "prefix": "ClearcoatMaterialExtension",
     "description": "",
     "body": [
-      "ClearcoatMaterialExtension { }"
+      "ClearcoatMaterialExtension { ${1:}}"
     ]
   },
   "ClipPlane": {
     "prefix": "ClipPlane",
     "description": "",
     "body": [
-      "ClipPlane { }"
+      "ClipPlane { ${1:}}"
     ]
   },
   "CollidableOffset": {
     "prefix": "CollidableOffset",
     "description": "",
     "body": [
-      "CollidableOffset { }"
+      "CollidableOffset { ${1:}}"
     ]
   },
   "CollidableShape": {
     "prefix": "CollidableShape",
     "description": "",
     "body": [
-      "CollidableShape { }"
+      "CollidableShape { ${1:}}"
     ]
   },
   "Collision": {
     "prefix": "Collision",
     "description": "",
     "body": [
-      "Collision { }"
+      "Collision { ${1:}}"
     ]
   },
   "CollisionCollection": {
     "prefix": "CollisionCollection",
     "description": "",
     "body": [
-      "CollisionCollection { }"
+      "CollisionCollection { ${1:}}"
     ]
   },
   "CollisionSensor": {
     "prefix": "CollisionSensor",
     "description": "",
     "body": [
-      "CollisionSensor { }"
+      "CollisionSensor { ${1:}}"
     ]
   },
   "CollisionSpace": {
     "prefix": "CollisionSpace",
     "description": "",
     "body": [
-      "CollisionSpace { }"
+      "CollisionSpace { ${1:}}"
     ]
   },
   "Color": {
     "prefix": "Color",
     "description": "",
     "body": [
-      "Color { }"
+      "Color { ${1:}}"
     ]
   },
   "ColorChaser": {
     "prefix": "ColorChaser",
     "description": "",
     "body": [
-      "ColorChaser { }"
+      "ColorChaser { ${1:}}"
     ]
   },
   "ColorDamper": {
     "prefix": "ColorDamper",
     "description": "",
     "body": [
-      "ColorDamper { }"
+      "ColorDamper { ${1:}}"
     ]
   },
   "ColorInterpolator": {
     "prefix": "ColorInterpolator",
     "description": "",
     "body": [
-      "ColorInterpolator { }"
+      "ColorInterpolator { ${1:}}"
     ]
   },
   "ColorRGBA": {
     "prefix": "ColorRGBA",
     "description": "",
     "body": [
-      "ColorRGBA { }"
+      "ColorRGBA { ${1:}}"
     ]
   },
   "ComposedCubeMapTexture": {
     "prefix": "ComposedCubeMapTexture",
     "description": "",
     "body": [
-      "ComposedCubeMapTexture { }"
+      "ComposedCubeMapTexture { ${1:}}"
     ]
   },
   "ComposedShader": {
     "prefix": "ComposedShader",
     "description": "",
     "body": [
-      "ComposedShader { }"
+      "ComposedShader { ${1:}}"
     ]
   },
   "ComposedTexture3D": {
     "prefix": "ComposedTexture3D",
     "description": "",
     "body": [
-      "ComposedTexture3D { }"
+      "ComposedTexture3D { ${1:}}"
     ]
   },
   "ComposedVolumeStyle": {
     "prefix": "ComposedVolumeStyle",
     "description": "",
     "body": [
-      "ComposedVolumeStyle { }"
+      "ComposedVolumeStyle { ${1:}}"
     ]
   },
   "Cone": {
     "prefix": "Cone",
     "description": "",
     "body": [
-      "Cone { }"
+      "Cone { ${1:}}"
     ]
   },
   "ConeEmitter": {
     "prefix": "ConeEmitter",
     "description": "",
     "body": [
-      "ConeEmitter { }"
+      "ConeEmitter { ${1:}}"
     ]
   },
   "Contact": {
     "prefix": "Contact",
     "description": "",
     "body": [
-      "Contact { }"
+      "Contact { ${1:}}"
     ]
   },
   "Contour2D": {
     "prefix": "Contour2D",
     "description": "",
     "body": [
-      "Contour2D { }"
+      "Contour2D { ${1:}}"
     ]
   },
   "ContourPolyline2D": {
     "prefix": "ContourPolyline2D",
     "description": "",
     "body": [
-      "ContourPolyline2D { }"
+      "ContourPolyline2D { ${1:}}"
     ]
   },
   "Convolver": {
     "prefix": "Convolver",
     "description": "",
     "body": [
-      "Convolver { }"
+      "Convolver { ${1:}}"
     ]
   },
   "Coordinate": {
     "prefix": "Coordinate",
     "description": "",
     "body": [
-      "Coordinate { }"
+      "Coordinate { ${1:}}"
     ]
   },
   "CoordinateChaser": {
     "prefix": "CoordinateChaser",
     "description": "",
     "body": [
-      "CoordinateChaser { }"
+      "CoordinateChaser { ${1:}}"
     ]
   },
   "CoordinateDamper": {
     "prefix": "CoordinateDamper",
     "description": "",
     "body": [
-      "CoordinateDamper { }"
+      "CoordinateDamper { ${1:}}"
     ]
   },
   "CoordinateDouble": {
     "prefix": "CoordinateDouble",
     "description": "",
     "body": [
-      "CoordinateDouble { }"
+      "CoordinateDouble { ${1:}}"
     ]
   },
   "CoordinateInterpolator": {
     "prefix": "CoordinateInterpolator",
     "description": "",
     "body": [
-      "CoordinateInterpolator { }"
+      "CoordinateInterpolator { ${1:}}"
     ]
   },
   "CoordinateInterpolator2D": {
     "prefix": "CoordinateInterpolator2D",
     "description": "",
     "body": [
-      "CoordinateInterpolator2D { }"
+      "CoordinateInterpolator2D { ${1:}}"
     ]
   },
   "Cylinder": {
     "prefix": "Cylinder",
     "description": "",
     "body": [
-      "Cylinder { }"
+      "Cylinder { ${1:}}"
     ]
   },
   "CylinderSensor": {
     "prefix": "CylinderSensor",
     "description": "",
     "body": [
-      "CylinderSensor { }"
+      "CylinderSensor { ${1:}}"
     ]
   },
   "DISEntityManager": {
     "prefix": "DISEntityManager",
     "description": "",
     "body": [
-      "DISEntityManager { }"
+      "DISEntityManager { ${1:}}"
     ]
   },
   "DISEntityTypeMapping": {
     "prefix": "DISEntityTypeMapping",
     "description": "",
     "body": [
-      "DISEntityTypeMapping { }"
+      "DISEntityTypeMapping { ${1:}}"
     ]
   },
   "Delay": {
     "prefix": "Delay",
     "description": "",
     "body": [
-      "Delay { }"
+      "Delay { ${1:}}"
     ]
   },
   "DepthMode": {
     "prefix": "DepthMode",
     "description": "",
     "body": [
-      "DepthMode { }"
+      "DepthMode { ${1:}}"
     ]
   },
   "DiffuseTransmissionMaterialExtension": {
     "prefix": "DiffuseTransmissionMaterialExtension",
     "description": "",
     "body": [
-      "DiffuseTransmissionMaterialExtension { }"
+      "DiffuseTransmissionMaterialExtension { ${1:}}"
     ]
   },
   "DirectionalLight": {
     "prefix": "DirectionalLight",
     "description": "",
     "body": [
-      "DirectionalLight { }"
+      "DirectionalLight { ${1:}}"
     ]
   },
   "Disk2D": {
     "prefix": "Disk2D",
     "description": "",
     "body": [
-      "Disk2D { }"
+      "Disk2D { ${1:}}"
     ]
   },
   "DispersionMaterialExtension": {
     "prefix": "DispersionMaterialExtension",
     "description": "",
     "body": [
-      "DispersionMaterialExtension { }"
+      "DispersionMaterialExtension { ${1:}}"
     ]
   },
   "DoubleAxisHingeJoint": {
     "prefix": "DoubleAxisHingeJoint",
     "description": "",
     "body": [
-      "DoubleAxisHingeJoint { }"
+      "DoubleAxisHingeJoint { ${1:}}"
     ]
   },
   "DynamicsCompressor": {
     "prefix": "DynamicsCompressor",
     "description": "",
     "body": [
-      "DynamicsCompressor { }"
+      "DynamicsCompressor { ${1:}}"
     ]
   },
   "EaseInEaseOut": {
     "prefix": "EaseInEaseOut",
     "description": "",
     "body": [
-      "EaseInEaseOut { }"
+      "EaseInEaseOut { ${1:}}"
     ]
   },
   "EdgeEnhancementVolumeStyle": {
     "prefix": "EdgeEnhancementVolumeStyle",
     "description": "",
     "body": [
-      "EdgeEnhancementVolumeStyle { }"
+      "EdgeEnhancementVolumeStyle { ${1:}}"
     ]
   },
   "ElevationGrid": {
     "prefix": "ElevationGrid",
     "description": "",
     "body": [
-      "ElevationGrid { }"
+      "ElevationGrid { ${1:}}"
     ]
   },
   "EmissiveStrengthMaterialExtension": {
     "prefix": "EmissiveStrengthMaterialExtension",
     "description": "",
     "body": [
-      "EmissiveStrengthMaterialExtension { }"
+      "EmissiveStrengthMaterialExtension { ${1:}}"
     ]
   },
   "EnvironmentLight": {
     "prefix": "EnvironmentLight",
     "description": "",
     "body": [
-      "EnvironmentLight { }"
+      "EnvironmentLight { ${1:}}"
     ]
   },
   "EspduTransform": {
     "prefix": "EspduTransform",
     "description": "",
     "body": [
-      "EspduTransform { }"
+      "EspduTransform { ${1:}}"
     ]
   },
   "ExplosionEmitter": {
     "prefix": "ExplosionEmitter",
     "description": "",
     "body": [
-      "ExplosionEmitter { }"
+      "ExplosionEmitter { ${1:}}"
     ]
   },
   "Extrusion": {
     "prefix": "Extrusion",
     "description": "",
     "body": [
-      "Extrusion { }"
+      "Extrusion { ${1:}}"
     ]
   },
   "FillProperties": {
     "prefix": "FillProperties",
     "description": "",
     "body": [
-      "FillProperties { }"
+      "FillProperties { ${1:}}"
     ]
   },
   "FloatVertexAttribute": {
     "prefix": "FloatVertexAttribute",
     "description": "",
     "body": [
-      "FloatVertexAttribute { }"
+      "FloatVertexAttribute { ${1:}}"
     ]
   },
   "Fog": {
     "prefix": "Fog",
     "description": "",
     "body": [
-      "Fog { }"
+      "Fog { ${1:}}"
     ]
   },
   "FogCoordinate": {
     "prefix": "FogCoordinate",
     "description": "",
     "body": [
-      "FogCoordinate { }"
+      "FogCoordinate { ${1:}}"
     ]
   },
   "FontLibrary": {
     "prefix": "FontLibrary",
     "description": "",
     "body": [
-      "FontLibrary { }"
+      "FontLibrary { ${1:}}"
     ]
   },
   "FontStyle": {
     "prefix": "FontStyle",
     "description": "",
     "body": [
-      "FontStyle { }"
+      "FontStyle { ${1:}}"
     ]
   },
   "ForcePhysicsModel": {
     "prefix": "ForcePhysicsModel",
     "description": "",
     "body": [
-      "ForcePhysicsModel { }"
+      "ForcePhysicsModel { ${1:}}"
     ]
   },
   "Gain": {
     "prefix": "Gain",
     "description": "",
     "body": [
-      "Gain { }"
+      "Gain { ${1:}}"
     ]
   },
   "GeneratedCubeMapTexture": {
     "prefix": "GeneratedCubeMapTexture",
     "description": "",
     "body": [
-      "GeneratedCubeMapTexture { }"
+      "GeneratedCubeMapTexture { ${1:}}"
     ]
   },
   "GeoCoordinate": {
     "prefix": "GeoCoordinate",
     "description": "",
     "body": [
-      "GeoCoordinate { }"
+      "GeoCoordinate { ${1:}}"
     ]
   },
   "GeoElevationGrid": {
     "prefix": "GeoElevationGrid",
     "description": "",
     "body": [
-      "GeoElevationGrid { }"
+      "GeoElevationGrid { ${1:}}"
     ]
   },
   "GeoLOD": {
     "prefix": "GeoLOD",
     "description": "",
     "body": [
-      "GeoLOD { }"
+      "GeoLOD { ${1:}}"
     ]
   },
   "GeoLocation": {
     "prefix": "GeoLocation",
     "description": "",
     "body": [
-      "GeoLocation { }"
+      "GeoLocation { ${1:}}"
     ]
   },
   "GeoMetadata": {
     "prefix": "GeoMetadata",
     "description": "",
     "body": [
-      "GeoMetadata { }"
+      "GeoMetadata { ${1:}}"
     ]
   },
   "GeoOrigin": {
     "prefix": "GeoOrigin",
     "description": "",
     "body": [
-      "GeoOrigin { }"
+      "GeoOrigin { ${1:}}"
     ]
   },
   "GeoPositionInterpolator": {
     "prefix": "GeoPositionInterpolator",
     "description": "",
     "body": [
-      "GeoPositionInterpolator { }"
+      "GeoPositionInterpolator { ${1:}}"
     ]
   },
   "GeoProximitySensor": {
     "prefix": "GeoProximitySensor",
     "description": "",
     "body": [
-      "GeoProximitySensor { }"
+      "GeoProximitySensor { ${1:}}"
     ]
   },
   "GeoTouchSensor": {
     "prefix": "GeoTouchSensor",
     "description": "",
     "body": [
-      "GeoTouchSensor { }"
+      "GeoTouchSensor { ${1:}}"
     ]
   },
   "GeoTransform": {
     "prefix": "GeoTransform",
     "description": "",
     "body": [
-      "GeoTransform { }"
+      "GeoTransform { ${1:}}"
     ]
   },
   "GeoViewpoint": {
     "prefix": "GeoViewpoint",
     "description": "",
     "body": [
-      "GeoViewpoint { }"
+      "GeoViewpoint { ${1:}}"
     ]
   },
   "Group": {
     "prefix": "Group",
     "description": "",
     "body": [
-      "Group { }"
+      "Group { ${1:}}"
     ]
   },
   "HAnimDisplacer": {
     "prefix": "HAnimDisplacer",
     "description": "",
     "body": [
-      "HAnimDisplacer { }"
+      "HAnimDisplacer { ${1:}}"
     ]
   },
   "HAnimHumanoid": {
     "prefix": "HAnimHumanoid",
     "description": "",
     "body": [
-      "HAnimHumanoid { }"
+      "HAnimHumanoid { ${1:}}"
     ]
   },
   "HAnimJoint": {
     "prefix": "HAnimJoint",
     "description": "",
     "body": [
-      "HAnimJoint { }"
+      "HAnimJoint { ${1:}}"
     ]
   },
   "HAnimMotion": {
     "prefix": "HAnimMotion",
     "description": "",
     "body": [
-      "HAnimMotion { }"
+      "HAnimMotion { ${1:}}"
     ]
   },
   "HAnimPose": {
     "prefix": "HAnimPose",
     "description": "",
     "body": [
-      "HAnimPose { }"
+      "HAnimPose { ${1:}}"
     ]
   },
   "HAnimSegment": {
     "prefix": "HAnimSegment",
     "description": "",
     "body": [
-      "HAnimSegment { }"
+      "HAnimSegment { ${1:}}"
     ]
   },
   "HAnimSite": {
     "prefix": "HAnimSite",
     "description": "",
     "body": [
-      "HAnimSite { }"
+      "HAnimSite { ${1:}}"
     ]
   },
   "IORMaterialExtension": {
     "prefix": "IORMaterialExtension",
     "description": "",
     "body": [
-      "IORMaterialExtension { }"
+      "IORMaterialExtension { ${1:}}"
     ]
   },
   "ImageCubeMapTexture": {
     "prefix": "ImageCubeMapTexture",
     "description": "",
     "body": [
-      "ImageCubeMapTexture { }"
+      "ImageCubeMapTexture { ${1:}}"
     ]
   },
   "ImageTexture": {
     "prefix": "ImageTexture",
     "description": "",
     "body": [
-      "ImageTexture { }"
+      "ImageTexture { ${1:}}"
     ]
   },
   "ImageTexture3D": {
     "prefix": "ImageTexture3D",
     "description": "",
     "body": [
-      "ImageTexture3D { }"
+      "ImageTexture3D { ${1:}}"
     ]
   },
   "ImageTextureAtlas": {
     "prefix": "ImageTextureAtlas",
     "description": "",
     "body": [
-      "ImageTextureAtlas { }"
+      "ImageTextureAtlas { ${1:}}"
     ]
   },
   "IndexedFaceSet": {
     "prefix": "IndexedFaceSet",
     "description": "",
     "body": [
-      "IndexedFaceSet { }"
+      "IndexedFaceSet { ${1:}}"
     ]
   },
   "IndexedLineSet": {
     "prefix": "IndexedLineSet",
     "description": "",
     "body": [
-      "IndexedLineSet { }"
+      "IndexedLineSet { ${1:}}"
     ]
   },
   "IndexedQuadSet": {
     "prefix": "IndexedQuadSet",
     "description": "",
     "body": [
-      "IndexedQuadSet { }"
+      "IndexedQuadSet { ${1:}}"
     ]
   },
   "IndexedTriangleFanSet": {
     "prefix": "IndexedTriangleFanSet",
     "description": "",
     "body": [
-      "IndexedTriangleFanSet { }"
+      "IndexedTriangleFanSet { ${1:}}"
     ]
   },
   "IndexedTriangleSet": {
     "prefix": "IndexedTriangleSet",
     "description": "",
     "body": [
-      "IndexedTriangleSet { }"
+      "IndexedTriangleSet { ${1:}}"
     ]
   },
   "IndexedTriangleStripSet": {
     "prefix": "IndexedTriangleStripSet",
     "description": "",
     "body": [
-      "IndexedTriangleStripSet { }"
+      "IndexedTriangleStripSet { ${1:}}"
     ]
   },
   "Inline": {
     "prefix": "Inline",
     "description": "",
     "body": [
-      "Inline { }"
+      "Inline { ${1:}}"
     ]
   },
   "InlineGeometry": {
     "prefix": "InlineGeometry",
     "description": "",
     "body": [
-      "InlineGeometry { }"
+      "InlineGeometry { ${1:}}"
     ]
   },
   "InstancedShape": {
     "prefix": "InstancedShape",
     "description": "",
     "body": [
-      "InstancedShape { }"
+      "InstancedShape { ${1:}}"
     ]
   },
   "IntegerSequencer": {
     "prefix": "IntegerSequencer",
     "description": "",
     "body": [
-      "IntegerSequencer { }"
+      "IntegerSequencer { ${1:}}"
     ]
   },
   "IntegerTrigger": {
     "prefix": "IntegerTrigger",
     "description": "",
     "body": [
-      "IntegerTrigger { }"
+      "IntegerTrigger { ${1:}}"
     ]
   },
   "IridescenceMaterialExtension": {
     "prefix": "IridescenceMaterialExtension",
     "description": "",
     "body": [
-      "IridescenceMaterialExtension { }"
+      "IridescenceMaterialExtension { ${1:}}"
     ]
   },
   "IsoSurfaceVolumeData": {
     "prefix": "IsoSurfaceVolumeData",
     "description": "",
     "body": [
-      "IsoSurfaceVolumeData { }"
+      "IsoSurfaceVolumeData { ${1:}}"
     ]
   },
   "KeySensor": {
     "prefix": "KeySensor",
     "description": "",
     "body": [
-      "KeySensor { }"
+      "KeySensor { ${1:}}"
     ]
   },
   "LOD": {
     "prefix": "LOD",
     "description": "",
     "body": [
-      "LOD { }"
+      "LOD { ${1:}}"
     ]
   },
   "Layer": {
     "prefix": "Layer",
     "description": "",
     "body": [
-      "Layer { }"
+      "Layer { ${1:}}"
     ]
   },
   "LayerSet": {
     "prefix": "LayerSet",
     "description": "",
     "body": [
-      "LayerSet { }"
+      "LayerSet { ${1:}}"
     ]
   },
   "Layout": {
     "prefix": "Layout",
     "description": "",
     "body": [
-      "Layout { }"
+      "Layout { ${1:}}"
     ]
   },
   "LayoutGroup": {
     "prefix": "LayoutGroup",
     "description": "",
     "body": [
-      "LayoutGroup { }"
+      "LayoutGroup { ${1:}}"
     ]
   },
   "LayoutLayer": {
     "prefix": "LayoutLayer",
     "description": "",
     "body": [
-      "LayoutLayer { }"
+      "LayoutLayer { ${1:}}"
     ]
   },
   "LinePickSensor": {
     "prefix": "LinePickSensor",
     "description": "",
     "body": [
-      "LinePickSensor { }"
+      "LinePickSensor { ${1:}}"
     ]
   },
   "LineProperties": {
     "prefix": "LineProperties",
     "description": "",
     "body": [
-      "LineProperties { }"
+      "LineProperties { ${1:}}"
     ]
   },
   "LineSet": {
     "prefix": "LineSet",
     "description": "",
     "body": [
-      "LineSet { }"
+      "LineSet { ${1:}}"
     ]
   },
   "ListenerPointSource": {
     "prefix": "ListenerPointSource",
     "description": "",
     "body": [
-      "ListenerPointSource { }"
+      "ListenerPointSource { ${1:}}"
     ]
   },
   "LoadSensor": {
     "prefix": "LoadSensor",
     "description": "",
     "body": [
-      "LoadSensor { }"
+      "LoadSensor { ${1:}}"
     ]
   },
   "LocalFog": {
     "prefix": "LocalFog",
     "description": "",
     "body": [
-      "LocalFog { }"
+      "LocalFog { ${1:}}"
     ]
   },
   "Material": {
     "prefix": "Material",
     "description": "",
     "body": [
-      "Material { }"
+      "Material { ${1:}}"
     ]
   },
   "Matrix3VertexAttribute": {
     "prefix": "Matrix3VertexAttribute",
     "description": "",
     "body": [
-      "Matrix3VertexAttribute { }"
+      "Matrix3VertexAttribute { ${1:}}"
     ]
   },
   "Matrix4VertexAttribute": {
     "prefix": "Matrix4VertexAttribute",
     "description": "",
     "body": [
-      "Matrix4VertexAttribute { }"
+      "Matrix4VertexAttribute { ${1:}}"
     ]
   },
   "MetadataBoolean": {
     "prefix": "MetadataBoolean",
     "description": "",
     "body": [
-      "MetadataBoolean { }"
+      "MetadataBoolean { ${1:}}"
     ]
   },
   "MetadataDouble": {
     "prefix": "MetadataDouble",
     "description": "",
     "body": [
-      "MetadataDouble { }"
+      "MetadataDouble { ${1:}}"
     ]
   },
   "MetadataFloat": {
     "prefix": "MetadataFloat",
     "description": "",
     "body": [
-      "MetadataFloat { }"
+      "MetadataFloat { ${1:}}"
     ]
   },
   "MetadataInteger": {
     "prefix": "MetadataInteger",
     "description": "",
     "body": [
-      "MetadataInteger { }"
+      "MetadataInteger { ${1:}}"
     ]
   },
   "MetadataSet": {
     "prefix": "MetadataSet",
     "description": "",
     "body": [
-      "MetadataSet { }"
+      "MetadataSet { ${1:}}"
     ]
   },
   "MetadataString": {
     "prefix": "MetadataString",
     "description": "",
     "body": [
-      "MetadataString { }"
+      "MetadataString { ${1:}}"
     ]
   },
   "MicrophoneSource": {
     "prefix": "MicrophoneSource",
     "description": "",
     "body": [
-      "MicrophoneSource { }"
+      "MicrophoneSource { ${1:}}"
     ]
   },
   "MotorJoint": {
     "prefix": "MotorJoint",
     "description": "",
     "body": [
-      "MotorJoint { }"
+      "MotorJoint { ${1:}}"
     ]
   },
   "MovieTexture": {
     "prefix": "MovieTexture",
     "description": "",
     "body": [
-      "MovieTexture { }"
+      "MovieTexture { ${1:}}"
     ]
   },
   "MultiTexture": {
     "prefix": "MultiTexture",
     "description": "",
     "body": [
-      "MultiTexture { }"
+      "MultiTexture { ${1:}}"
     ]
   },
   "MultiTextureCoordinate": {
     "prefix": "MultiTextureCoordinate",
     "description": "",
     "body": [
-      "MultiTextureCoordinate { }"
+      "MultiTextureCoordinate { ${1:}}"
     ]
   },
   "MultiTextureTransform": {
     "prefix": "MultiTextureTransform",
     "description": "",
     "body": [
-      "MultiTextureTransform { }"
+      "MultiTextureTransform { ${1:}}"
     ]
   },
   "NavigationInfo": {
     "prefix": "NavigationInfo",
     "description": "",
     "body": [
-      "NavigationInfo { }"
+      "NavigationInfo { ${1:}}"
     ]
   },
   "Normal": {
     "prefix": "Normal",
     "description": "",
     "body": [
-      "Normal { }"
+      "Normal { ${1:}}"
     ]
   },
   "NormalInterpolator": {
     "prefix": "NormalInterpolator",
     "description": "",
     "body": [
-      "NormalInterpolator { }"
+      "NormalInterpolator { ${1:}}"
     ]
   },
   "NurbsCurve": {
     "prefix": "NurbsCurve",
     "description": "",
     "body": [
-      "NurbsCurve { }"
+      "NurbsCurve { ${1:}}"
     ]
   },
   "NurbsCurve2D": {
     "prefix": "NurbsCurve2D",
     "description": "",
     "body": [
-      "NurbsCurve2D { }"
+      "NurbsCurve2D { ${1:}}"
     ]
   },
   "NurbsOrientationInterpolator": {
     "prefix": "NurbsOrientationInterpolator",
     "description": "",
     "body": [
-      "NurbsOrientationInterpolator { }"
+      "NurbsOrientationInterpolator { ${1:}}"
     ]
   },
   "NurbsPatchSurface": {
     "prefix": "NurbsPatchSurface",
     "description": "",
     "body": [
-      "NurbsPatchSurface { }"
+      "NurbsPatchSurface { ${1:}}"
     ]
   },
   "NurbsPositionInterpolator": {
     "prefix": "NurbsPositionInterpolator",
     "description": "",
     "body": [
-      "NurbsPositionInterpolator { }"
+      "NurbsPositionInterpolator { ${1:}}"
     ]
   },
   "NurbsSet": {
     "prefix": "NurbsSet",
     "description": "",
     "body": [
-      "NurbsSet { }"
+      "NurbsSet { ${1:}}"
     ]
   },
   "NurbsSurfaceInterpolator": {
     "prefix": "NurbsSurfaceInterpolator",
     "description": "",
     "body": [
-      "NurbsSurfaceInterpolator { }"
+      "NurbsSurfaceInterpolator { ${1:}}"
     ]
   },
   "NurbsSweptSurface": {
     "prefix": "NurbsSweptSurface",
     "description": "",
     "body": [
-      "NurbsSweptSurface { }"
+      "NurbsSweptSurface { ${1:}}"
     ]
   },
   "NurbsSwungSurface": {
     "prefix": "NurbsSwungSurface",
     "description": "",
     "body": [
-      "NurbsSwungSurface { }"
+      "NurbsSwungSurface { ${1:}}"
     ]
   },
   "NurbsTextureCoordinate": {
     "prefix": "NurbsTextureCoordinate",
     "description": "",
     "body": [
-      "NurbsTextureCoordinate { }"
+      "NurbsTextureCoordinate { ${1:}}"
     ]
   },
   "NurbsTrimmedSurface": {
     "prefix": "NurbsTrimmedSurface",
     "description": "",
     "body": [
-      "NurbsTrimmedSurface { }"
+      "NurbsTrimmedSurface { ${1:}}"
     ]
   },
   "OpacityMapVolumeStyle": {
     "prefix": "OpacityMapVolumeStyle",
     "description": "",
     "body": [
-      "OpacityMapVolumeStyle { }"
+      "OpacityMapVolumeStyle { ${1:}}"
     ]
   },
   "OrientationChaser": {
     "prefix": "OrientationChaser",
     "description": "",
     "body": [
-      "OrientationChaser { }"
+      "OrientationChaser { ${1:}}"
     ]
   },
   "OrientationDamper": {
     "prefix": "OrientationDamper",
     "description": "",
     "body": [
-      "OrientationDamper { }"
+      "OrientationDamper { ${1:}}"
     ]
   },
   "OrientationInterpolator": {
     "prefix": "OrientationInterpolator",
     "description": "",
     "body": [
-      "OrientationInterpolator { }"
+      "OrientationInterpolator { ${1:}}"
     ]
   },
   "OrthoViewpoint": {
     "prefix": "OrthoViewpoint",
     "description": "",
     "body": [
-      "OrthoViewpoint { }"
+      "OrthoViewpoint { ${1:}}"
     ]
   },
   "OscillatorSource": {
     "prefix": "OscillatorSource",
     "description": "",
     "body": [
-      "OscillatorSource { }"
+      "OscillatorSource { ${1:}}"
     ]
   },
   "PackagedShader": {
     "prefix": "PackagedShader",
     "description": "",
     "body": [
-      "PackagedShader { }"
+      "PackagedShader { ${1:}}"
     ]
   },
   "ParticleSystem": {
     "prefix": "ParticleSystem",
     "description": "",
     "body": [
-      "ParticleSystem { }"
+      "ParticleSystem { ${1:}}"
     ]
   },
   "PeriodicWave": {
     "prefix": "PeriodicWave",
     "description": "",
     "body": [
-      "PeriodicWave { }"
+      "PeriodicWave { ${1:}}"
     ]
   },
   "PhysicalMaterial": {
     "prefix": "PhysicalMaterial",
     "description": "",
     "body": [
-      "PhysicalMaterial { }"
+      "PhysicalMaterial { ${1:}}"
     ]
   },
   "PickableGroup": {
     "prefix": "PickableGroup",
     "description": "",
     "body": [
-      "PickableGroup { }"
+      "PickableGroup { ${1:}}"
     ]
   },
   "PixelTexture": {
     "prefix": "PixelTexture",
     "description": "",
     "body": [
-      "PixelTexture { }"
+      "PixelTexture { ${1:}}"
     ]
   },
   "PixelTexture3D": {
     "prefix": "PixelTexture3D",
     "description": "",
     "body": [
-      "PixelTexture3D { }"
+      "PixelTexture3D { ${1:}}"
     ]
   },
   "PlaneSensor": {
     "prefix": "PlaneSensor",
     "description": "",
     "body": [
-      "PlaneSensor { }"
+      "PlaneSensor { ${1:}}"
     ]
   },
   "PointEmitter": {
     "prefix": "PointEmitter",
     "description": "",
     "body": [
-      "PointEmitter { }"
+      "PointEmitter { ${1:}}"
     ]
   },
   "PointLight": {
     "prefix": "PointLight",
     "description": "",
     "body": [
-      "PointLight { }"
+      "PointLight { ${1:}}"
     ]
   },
   "PointPickSensor": {
     "prefix": "PointPickSensor",
     "description": "",
     "body": [
-      "PointPickSensor { }"
+      "PointPickSensor { ${1:}}"
     ]
   },
   "PointProperties": {
     "prefix": "PointProperties",
     "description": "",
     "body": [
-      "PointProperties { }"
+      "PointProperties { ${1:}}"
     ]
   },
   "PointSet": {
     "prefix": "PointSet",
     "description": "",
     "body": [
-      "PointSet { }"
+      "PointSet { ${1:}}"
     ]
   },
   "Polyline2D": {
     "prefix": "Polyline2D",
     "description": "",
     "body": [
-      "Polyline2D { }"
+      "Polyline2D { ${1:}}"
     ]
   },
   "PolylineEmitter": {
     "prefix": "PolylineEmitter",
     "description": "",
     "body": [
-      "PolylineEmitter { }"
+      "PolylineEmitter { ${1:}}"
     ]
   },
   "Polypoint2D": {
     "prefix": "Polypoint2D",
     "description": "",
     "body": [
-      "Polypoint2D { }"
+      "Polypoint2D { ${1:}}"
     ]
   },
   "PositionChaser": {
     "prefix": "PositionChaser",
     "description": "",
     "body": [
-      "PositionChaser { }"
+      "PositionChaser { ${1:}}"
     ]
   },
   "PositionChaser2D": {
     "prefix": "PositionChaser2D",
     "description": "",
     "body": [
-      "PositionChaser2D { }"
+      "PositionChaser2D { ${1:}}"
     ]
   },
   "PositionDamper": {
     "prefix": "PositionDamper",
     "description": "",
     "body": [
-      "PositionDamper { }"
+      "PositionDamper { ${1:}}"
     ]
   },
   "PositionDamper2D": {
     "prefix": "PositionDamper2D",
     "description": "",
     "body": [
-      "PositionDamper2D { }"
+      "PositionDamper2D { ${1:}}"
     ]
   },
   "PositionInterpolator": {
     "prefix": "PositionInterpolator",
     "description": "",
     "body": [
-      "PositionInterpolator { }"
+      "PositionInterpolator { ${1:}}"
     ]
   },
   "PositionInterpolator2D": {
     "prefix": "PositionInterpolator2D",
     "description": "",
     "body": [
-      "PositionInterpolator2D { }"
+      "PositionInterpolator2D { ${1:}}"
     ]
   },
   "PrimitivePickSensor": {
     "prefix": "PrimitivePickSensor",
     "description": "",
     "body": [
-      "PrimitivePickSensor { }"
+      "PrimitivePickSensor { ${1:}}"
     ]
   },
   "ProgramShader": {
     "prefix": "ProgramShader",
     "description": "",
     "body": [
-      "ProgramShader { }"
+      "ProgramShader { ${1:}}"
     ]
   },
   "ProjectionVolumeStyle": {
     "prefix": "ProjectionVolumeStyle",
     "description": "",
     "body": [
-      "ProjectionVolumeStyle { }"
+      "ProjectionVolumeStyle { ${1:}}"
     ]
   },
   "ProximitySensor": {
     "prefix": "ProximitySensor",
     "description": "",
     "body": [
-      "ProximitySensor { }"
+      "ProximitySensor { ${1:}}"
     ]
   },
   "QuadSet": {
     "prefix": "QuadSet",
     "description": "",
     "body": [
-      "QuadSet { }"
+      "QuadSet { ${1:}}"
     ]
   },
   "ReceiverPdu": {
     "prefix": "ReceiverPdu",
     "description": "",
     "body": [
-      "ReceiverPdu { }"
+      "ReceiverPdu { ${1:}}"
     ]
   },
   "Rectangle2D": {
     "prefix": "Rectangle2D",
     "description": "",
     "body": [
-      "Rectangle2D { }"
+      "Rectangle2D { ${1:}}"
     ]
   },
   "RenderedTexture": {
     "prefix": "RenderedTexture",
     "description": "",
     "body": [
-      "RenderedTexture { }"
+      "RenderedTexture { ${1:}}"
     ]
   },
   "RigidBody": {
     "prefix": "RigidBody",
     "description": "",
     "body": [
-      "RigidBody { }"
+      "RigidBody { ${1:}}"
     ]
   },
   "RigidBodyCollection": {
     "prefix": "RigidBodyCollection",
     "description": "",
     "body": [
-      "RigidBodyCollection { }"
+      "RigidBodyCollection { ${1:}}"
     ]
   },
   "ScalarChaser": {
     "prefix": "ScalarChaser",
     "description": "",
     "body": [
-      "ScalarChaser { }"
+      "ScalarChaser { ${1:}}"
     ]
   },
   "ScalarDamper": {
     "prefix": "ScalarDamper",
     "description": "",
     "body": [
-      "ScalarDamper { }"
+      "ScalarDamper { ${1:}}"
     ]
   },
   "ScalarInterpolator": {
     "prefix": "ScalarInterpolator",
     "description": "",
     "body": [
-      "ScalarInterpolator { }"
+      "ScalarInterpolator { ${1:}}"
     ]
   },
   "ScreenFontStyle": {
     "prefix": "ScreenFontStyle",
     "description": "",
     "body": [
-      "ScreenFontStyle { }"
+      "ScreenFontStyle { ${1:}}"
     ]
   },
   "ScreenGroup": {
     "prefix": "ScreenGroup",
     "description": "",
     "body": [
-      "ScreenGroup { }"
+      "ScreenGroup { ${1:}}"
     ]
   },
   "Script": {
     "prefix": "Script",
     "description": "",
     "body": [
-      "Script { }"
+      "Script { ${1:}}"
     ]
   },
   "SegmentedVolumeData": {
     "prefix": "SegmentedVolumeData",
     "description": "",
     "body": [
-      "SegmentedVolumeData { }"
+      "SegmentedVolumeData { ${1:}}"
     ]
   },
   "ShadedVolumeStyle": {
     "prefix": "ShadedVolumeStyle",
     "description": "",
     "body": [
-      "ShadedVolumeStyle { }"
+      "ShadedVolumeStyle { ${1:}}"
     ]
   },
   "ShaderPart": {
     "prefix": "ShaderPart",
     "description": "",
     "body": [
-      "ShaderPart { }"
+      "ShaderPart { ${1:}}"
     ]
   },
   "ShaderProgram": {
     "prefix": "ShaderProgram",
     "description": "",
     "body": [
-      "ShaderProgram { }"
+      "ShaderProgram { ${1:}}"
     ]
   },
   "Shape": {
     "prefix": "Shape",
     "description": "",
     "body": [
-      "Shape { }"
+      "Shape { ${1:}}"
     ]
   },
   "SheenMaterialExtension": {
     "prefix": "SheenMaterialExtension",
     "description": "",
     "body": [
-      "SheenMaterialExtension { }"
+      "SheenMaterialExtension { ${1:}}"
     ]
   },
   "SignalPdu": {
     "prefix": "SignalPdu",
     "description": "",
     "body": [
-      "SignalPdu { }"
+      "SignalPdu { ${1:}}"
     ]
   },
   "SilhouetteEnhancementVolumeStyle": {
     "prefix": "SilhouetteEnhancementVolumeStyle",
     "description": "",
     "body": [
-      "SilhouetteEnhancementVolumeStyle { }"
+      "SilhouetteEnhancementVolumeStyle { ${1:}}"
     ]
   },
   "SingleAxisHingeJoint": {
     "prefix": "SingleAxisHingeJoint",
     "description": "",
     "body": [
-      "SingleAxisHingeJoint { }"
+      "SingleAxisHingeJoint { ${1:}}"
     ]
   },
   "SliderJoint": {
     "prefix": "SliderJoint",
     "description": "",
     "body": [
-      "SliderJoint { }"
+      "SliderJoint { ${1:}}"
     ]
   },
   "Sound": {
     "prefix": "Sound",
     "description": "",
     "body": [
-      "Sound { }"
+      "Sound { ${1:}}"
     ]
   },
   "SpatialSound": {
     "prefix": "SpatialSound",
     "description": "",
     "body": [
-      "SpatialSound { }"
+      "SpatialSound { ${1:}}"
     ]
   },
   "SpecularGlossinessMaterial": {
     "prefix": "SpecularGlossinessMaterial",
     "description": "",
     "body": [
-      "SpecularGlossinessMaterial { }"
+      "SpecularGlossinessMaterial { ${1:}}"
     ]
   },
   "SpecularMaterialExtension": {
     "prefix": "SpecularMaterialExtension",
     "description": "",
     "body": [
-      "SpecularMaterialExtension { }"
+      "SpecularMaterialExtension { ${1:}}"
     ]
   },
   "Sphere": {
     "prefix": "Sphere",
     "description": "",
     "body": [
-      "Sphere { }"
+      "Sphere { ${1:}}"
     ]
   },
   "SphereSensor": {
     "prefix": "SphereSensor",
     "description": "",
     "body": [
-      "SphereSensor { }"
+      "SphereSensor { ${1:}}"
     ]
   },
   "SplinePositionInterpolator": {
     "prefix": "SplinePositionInterpolator",
     "description": "",
     "body": [
-      "SplinePositionInterpolator { }"
+      "SplinePositionInterpolator { ${1:}}"
     ]
   },
   "SplinePositionInterpolator2D": {
     "prefix": "SplinePositionInterpolator2D",
     "description": "",
     "body": [
-      "SplinePositionInterpolator2D { }"
+      "SplinePositionInterpolator2D { ${1:}}"
     ]
   },
   "SplineScalarInterpolator": {
     "prefix": "SplineScalarInterpolator",
     "description": "",
     "body": [
-      "SplineScalarInterpolator { }"
+      "SplineScalarInterpolator { ${1:}}"
     ]
   },
   "SpotLight": {
     "prefix": "SpotLight",
     "description": "",
     "body": [
-      "SpotLight { }"
+      "SpotLight { ${1:}}"
     ]
   },
   "SquadOrientationInterpolator": {
     "prefix": "SquadOrientationInterpolator",
     "description": "",
     "body": [
-      "SquadOrientationInterpolator { }"
+      "SquadOrientationInterpolator { ${1:}}"
     ]
   },
   "StaticGroup": {
     "prefix": "StaticGroup",
     "description": "",
     "body": [
-      "StaticGroup { }"
+      "StaticGroup { ${1:}}"
     ]
   },
   "StreamAudioDestination": {
     "prefix": "StreamAudioDestination",
     "description": "",
     "body": [
-      "StreamAudioDestination { }"
+      "StreamAudioDestination { ${1:}}"
     ]
   },
   "StreamAudioSource": {
     "prefix": "StreamAudioSource",
     "description": "",
     "body": [
-      "StreamAudioSource { }"
+      "StreamAudioSource { ${1:}}"
     ]
   },
   "StringSensor": {
     "prefix": "StringSensor",
     "description": "",
     "body": [
-      "StringSensor { }"
+      "StringSensor { ${1:}}"
     ]
   },
   "SurfaceEmitter": {
     "prefix": "SurfaceEmitter",
     "description": "",
     "body": [
-      "SurfaceEmitter { }"
+      "SurfaceEmitter { ${1:}}"
     ]
   },
   "Switch": {
     "prefix": "Switch",
     "description": "",
     "body": [
-      "Switch { }"
+      "Switch { ${1:}}"
     ]
   },
   "Tangent": {
     "prefix": "Tangent",
     "description": "",
     "body": [
-      "Tangent { }"
+      "Tangent { ${1:}}"
     ]
   },
   "TexCoordChaser2D": {
     "prefix": "TexCoordChaser2D",
     "description": "",
     "body": [
-      "TexCoordChaser2D { }"
+      "TexCoordChaser2D { ${1:}}"
     ]
   },
   "TexCoordDamper2D": {
     "prefix": "TexCoordDamper2D",
     "description": "",
     "body": [
-      "TexCoordDamper2D { }"
+      "TexCoordDamper2D { ${1:}}"
     ]
   },
   "Text": {
     "prefix": "Text",
     "description": "",
     "body": [
-      "Text { }"
+      "Text { ${1:}}"
     ]
   },
   "TextureBackground": {
     "prefix": "TextureBackground",
     "description": "",
     "body": [
-      "TextureBackground { }"
+      "TextureBackground { ${1:}}"
     ]
   },
   "TextureCoordinate": {
     "prefix": "TextureCoordinate",
     "description": "",
     "body": [
-      "TextureCoordinate { }"
+      "TextureCoordinate { ${1:}}"
     ]
   },
   "TextureCoordinate3D": {
     "prefix": "TextureCoordinate3D",
     "description": "",
     "body": [
-      "TextureCoordinate3D { }"
+      "TextureCoordinate3D { ${1:}}"
     ]
   },
   "TextureCoordinate4D": {
     "prefix": "TextureCoordinate4D",
     "description": "",
     "body": [
-      "TextureCoordinate4D { }"
+      "TextureCoordinate4D { ${1:}}"
     ]
   },
   "TextureCoordinateGenerator": {
     "prefix": "TextureCoordinateGenerator",
     "description": "",
     "body": [
-      "TextureCoordinateGenerator { }"
+      "TextureCoordinateGenerator { ${1:}}"
     ]
   },
   "TextureProjector": {
     "prefix": "TextureProjector",
     "description": "",
     "body": [
-      "TextureProjector { }"
+      "TextureProjector { ${1:}}"
     ]
   },
   "TextureProjectorParallel": {
     "prefix": "TextureProjectorParallel",
     "description": "",
     "body": [
-      "TextureProjectorParallel { }"
+      "TextureProjectorParallel { ${1:}}"
     ]
   },
   "TextureProperties": {
     "prefix": "TextureProperties",
     "description": "",
     "body": [
-      "TextureProperties { }"
+      "TextureProperties { ${1:}}"
     ]
   },
   "TextureTransform": {
     "prefix": "TextureTransform",
     "description": "",
     "body": [
-      "TextureTransform { }"
+      "TextureTransform { ${1:}}"
     ]
   },
   "TextureTransform3D": {
     "prefix": "TextureTransform3D",
     "description": "",
     "body": [
-      "TextureTransform3D { }"
+      "TextureTransform3D { ${1:}}"
     ]
   },
   "TextureTransformMatrix3D": {
     "prefix": "TextureTransformMatrix3D",
     "description": "",
     "body": [
-      "TextureTransformMatrix3D { }"
+      "TextureTransformMatrix3D { ${1:}}"
     ]
   },
   "TimeSensor": {
     "prefix": "TimeSensor",
     "description": "",
     "body": [
-      "TimeSensor { }"
+      "TimeSensor { ${1:}}"
     ]
   },
   "TimeTrigger": {
     "prefix": "TimeTrigger",
     "description": "",
     "body": [
-      "TimeTrigger { }"
+      "TimeTrigger { ${1:}}"
     ]
   },
   "ToneMappedVolumeStyle": {
     "prefix": "ToneMappedVolumeStyle",
     "description": "",
     "body": [
-      "ToneMappedVolumeStyle { }"
+      "ToneMappedVolumeStyle { ${1:}}"
     ]
   },
   "TouchSensor": {
     "prefix": "TouchSensor",
     "description": "",
     "body": [
-      "TouchSensor { }"
+      "TouchSensor { ${1:}}"
     ]
   },
   "Transform": {
     "prefix": "Transform",
     "description": "",
     "body": [
-      "Transform { }"
+      "Transform { ${1:}}"
     ]
   },
   "TransformSensor": {
     "prefix": "TransformSensor",
     "description": "",
     "body": [
-      "TransformSensor { }"
+      "TransformSensor { ${1:}}"
     ]
   },
   "TransmissionMaterialExtension": {
     "prefix": "TransmissionMaterialExtension",
     "description": "",
     "body": [
-      "TransmissionMaterialExtension { }"
+      "TransmissionMaterialExtension { ${1:}}"
     ]
   },
   "TransmitterPdu": {
     "prefix": "TransmitterPdu",
     "description": "",
     "body": [
-      "TransmitterPdu { }"
+      "TransmitterPdu { ${1:}}"
     ]
   },
   "TriangleFanSet": {
     "prefix": "TriangleFanSet",
     "description": "",
     "body": [
-      "TriangleFanSet { }"
+      "TriangleFanSet { ${1:}}"
     ]
   },
   "TriangleSet": {
     "prefix": "TriangleSet",
     "description": "",
     "body": [
-      "TriangleSet { }"
+      "TriangleSet { ${1:}}"
     ]
   },
   "TriangleSet2D": {
     "prefix": "TriangleSet2D",
     "description": "",
     "body": [
-      "TriangleSet2D { }"
+      "TriangleSet2D { ${1:}}"
     ]
   },
   "TriangleStripSet": {
     "prefix": "TriangleStripSet",
     "description": "",
     "body": [
-      "TriangleStripSet { }"
+      "TriangleStripSet { ${1:}}"
     ]
   },
   "TwoSidedMaterial": {
     "prefix": "TwoSidedMaterial",
     "description": "",
     "body": [
-      "TwoSidedMaterial { }"
+      "TwoSidedMaterial { ${1:}}"
     ]
   },
   "UniversalJoint": {
     "prefix": "UniversalJoint",
     "description": "",
     "body": [
-      "UniversalJoint { }"
+      "UniversalJoint { ${1:}}"
     ]
   },
   "UnlitMaterial": {
     "prefix": "UnlitMaterial",
     "description": "",
     "body": [
-      "UnlitMaterial { }"
+      "UnlitMaterial { ${1:}}"
     ]
   },
   "Viewpoint": {
     "prefix": "Viewpoint",
     "description": "",
     "body": [
-      "Viewpoint { }"
+      "Viewpoint { ${1:}}"
     ]
   },
   "ViewpointGroup": {
     "prefix": "ViewpointGroup",
     "description": "",
     "body": [
-      "ViewpointGroup { }"
+      "ViewpointGroup { ${1:}}"
     ]
   },
   "Viewport": {
     "prefix": "Viewport",
     "description": "",
     "body": [
-      "Viewport { }"
+      "Viewport { ${1:}}"
     ]
   },
   "VisibilitySensor": {
     "prefix": "VisibilitySensor",
     "description": "",
     "body": [
-      "VisibilitySensor { }"
+      "VisibilitySensor { ${1:}}"
     ]
   },
   "VolumeData": {
     "prefix": "VolumeData",
     "description": "",
     "body": [
-      "VolumeData { }"
+      "VolumeData { ${1:}}"
     ]
   },
   "VolumeEmitter": {
     "prefix": "VolumeEmitter",
     "description": "",
     "body": [
-      "VolumeEmitter { }"
+      "VolumeEmitter { ${1:}}"
     ]
   },
   "VolumeMaterialExtension": {
     "prefix": "VolumeMaterialExtension",
     "description": "",
     "body": [
-      "VolumeMaterialExtension { }"
+      "VolumeMaterialExtension { ${1:}}"
     ]
   },
   "VolumePickSensor": {
     "prefix": "VolumePickSensor",
     "description": "",
     "body": [
-      "VolumePickSensor { }"
+      "VolumePickSensor { ${1:}}"
     ]
   },
   "VolumeScatterMaterialExtension": {
     "prefix": "VolumeScatterMaterialExtension",
     "description": "",
     "body": [
-      "VolumeScatterMaterialExtension { }"
+      "VolumeScatterMaterialExtension { ${1:}}"
     ]
   },
   "WaveShaper": {
     "prefix": "WaveShaper",
     "description": "",
     "body": [
-      "WaveShaper { }"
+      "WaveShaper { ${1:}}"
     ]
   },
   "WindPhysicsModel": {
     "prefix": "WindPhysicsModel",
     "description": "",
     "body": [
-      "WindPhysicsModel { }"
+      "WindPhysicsModel { ${1:}}"
     ]
   },
   "WorldInfo": {
     "prefix": "WorldInfo",
     "description": "",
     "body": [
-      "WorldInfo { }"
+      "WorldInfo { ${1:}}"
     ]
   },
   "absorption": {

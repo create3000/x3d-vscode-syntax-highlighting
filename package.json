@@ -81,7 +81,7 @@
       {
         "language": "X3D",
         "scopeName": "source.x3d",
-        "path": "./src/grammars.json"
+        "path": "./src/X3D.json"
       }
     ]
   },

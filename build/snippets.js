@@ -37,7 +37,7 @@ async function main ()
          prefix: typeName,
          description: "",
          body: [
-            typeName + " { }",
+            typeName + " { ${1:}}",
          ],
       };
    }

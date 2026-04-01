@@ -1,0 +1,53 @@
+#X3D V4.1 utf8 X_ITE V14.0.0
+
+PROFILE Interchange
+
+COMPONENT Scripting : 1
+
+UNIT angle degree 0.017453292519943295
+
+META "key" "value (https://example.com/foo/bah.html)"
+META "creator" "Holger Seelig"
+META "created" "Wed, 01 Apr 2026 15:12:51 GMT"
+META "modified" "Wed, 01 Apr 2026 15:15:11 GMT"
+META "generator" "Sunrize X3D Editor V2.0.11, https://create3000.github.io/sunrize/"
+
+PROTO Proto [
+   initializeOnly SFString name "DefaultName"
+   inputOnly SFVec3f translation
+   outputOnly SFRotation rotation
+   inputOutput MFNode children [ ]
+]
+{
+   Group {
+      children IS children
+   }
+}
+
+DEF Box Transform {
+   children Shape {
+      appearance Appearance {
+         material Material { }
+      }
+      geometry Box { }
+   }
+}
+
+Script {
+   inputOutput MFFloat floats [ 0.123, 0.001, 123 ]
+   inputOutput MFInt32 ints [ -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+
+   url "ecmascript:
+function initialize ()
+{
+   let s = '';
+
+   for (const c of Browser .supportedComponents)
+      s += c .name + '|';
+
+   console .log (s + '\\n');
+}
+"
+}
+
+EXPORT Box AS ExportedBox DESCRIPTION "ExportedBox Description"

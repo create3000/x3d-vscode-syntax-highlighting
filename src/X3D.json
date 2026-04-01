@@ -28,6 +28,13 @@
           }
         },
         {
+          "match": "\\b(UNIT)\\s+(angle|force|length|mass)\\b",
+          "captures": {
+            "1": { "name": "keyword.control" },
+            "2": { "name": "constant.character" }
+          }
+        },
+        {
           "name": "keyword.control",
           "match": "\\b(PROFILE|COMPONENT|UNIT|META|EXTERNPROTO|PROTO|IS|DEF|USE|ROUTE|TO|IMPORT|EXPORT|AS|DESCRIPTION)\\b"
         },
