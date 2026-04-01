@@ -1,13 +1,5 @@
 #X3D V4.1 utf8 X_ITE V14.1.2
 
-# Comment
-
-#/* Multiple
-  * Line
-  * Comment */#
-
-# Another comment
-
 PROFILE Interchange
 
 COMPONENT Scripting : 1
@@ -36,6 +28,18 @@ PROTO Proto [
     children IS children
   }
 }
+
+# Comment
+
+DEF NoComment1 Group { }
+
+#/* Multiple
+  * Line
+  * Comment */#
+
+DEF NoComment2 Group { }
+
+# Another comment
 
 DEF Box1 Transform {
   children Shape {
