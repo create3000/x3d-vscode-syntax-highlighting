@@ -2,7 +2,7 @@
 
 [![VS Code marketplace](https://img.shields.io/static/v1?label=VS%20Code%20Marketplace&message=x3d-vscode-syntax-highlighting&color=blue)](https://marketplace.visualstudio.com/items?itemName=create3000.x3d-vscode-syntax-highlighting)
 
-The Extension adds syntax highlighting for X3D Classic VRML Encoding and VRML to VS Code.
+The Extension adds syntax highlighting support for X3D Classic VRML Encoding and VRML to VS Code.
 
 ![Syntax Highlighting](images/sreenshot1.png)
 
