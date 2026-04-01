@@ -81,6 +81,6 @@ function initialize ()
 "
 }
 
-ROUTE Box1 .translation TO Box2 .translation
+ROUTE Box1.translation TO Box2.translation
 
 EXPORT Box AS ExportedBox DESCRIPTION "ExportedBox Description"
