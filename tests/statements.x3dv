@@ -86,6 +86,12 @@ function initialize ()
 "
 }
 
+DEF Inline Inline {
+  url "box.x3dv"
+}
+
 ROUTE Box1.translation TO Box2.translation
+
+IMPORT Inline.ExportedBox AS ImportedBox
 
 EXPORT Box1 AS ExportedBox DESCRIPTION "ExportedBox Description"
