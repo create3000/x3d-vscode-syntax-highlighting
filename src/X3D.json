@@ -71,16 +71,12 @@
           "match": "\\b(?:0[xX][\\da-fA-F]+|[+-]?(?:(?:(?:\\d*\\.\\d+)|(?:\\d+(?:\\.)?))(?:[eE][+-]?\\d+)?))\\b"
         },
         {
-          "name": "strong",
-          "match": "[:\\.]"
-        },
-        {
           "name": "variable.parameter",
           "match": "(\\w+)"
         },
         {
-          "name": "variable.parameter",
-          "match": "^(\\s*)"
+          "name": "strong",
+          "match": "[:\\.]"
         }
       ]
     },
