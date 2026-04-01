@@ -34,7 +34,7 @@ PROTO Proto [
 DEF NoComment1 Group { }
 
 #/* Multiple
-  * Line
+  * Lines
   * Comment */#
 
 DEF NoComment2 Group { }
