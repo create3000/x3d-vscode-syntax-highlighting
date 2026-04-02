@@ -48,6 +48,16 @@
     "release": "node build/release.js",
     "snippets": "node build/snippets.js"
   },
+  "devDependencies": {
+    "shell-tools": "^1.1.9",
+    "x_ite-node": "^2.0.10"
+  },
+  "extensionDependencies": [
+    "create3000.x-ite-vscode-formatter"
+  ],
+  "extensionPack": [
+    "create3000.x-ite-vscode"
+  ],
   "engines": {
     "vscode": "^1.14.0"
   },
@@ -95,13 +105,5 @@
         "path": "./syntaxes/X3D.tmLanguage.json"
       }
     ]
-  },
-  "devDependencies": {
-    "shell-tools": "^1.1.9",
-    "x_ite-node": "^2.0.10"
-  },
-  "extensionPack": [
-    "create3000.x-ite-vscode",
-    "create3000.x-ite-vscode-formatter"
-  ]
+  }
 }
