@@ -99,5 +99,9 @@
   "devDependencies": {
     "shell-tools": "^1.1.9",
     "x_ite-node": "^2.0.10"
-  }
+  },
+  "extensionPack": [
+    "create3000.x-ite-vscode",
+    "create3000.x-ite-vscode-formatter"
+  ]
 }
