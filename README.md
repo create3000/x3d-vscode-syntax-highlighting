@@ -5,7 +5,7 @@
 
 This Extension adds syntax highlighting support for X3D Classic VRML Encoding (.x3dv), VRML 2.0 (.wrl) and X3D JSON Encoding (.x3dj) to VS Code.
 
-![Syntax Highlighting](images/sreenshot1.png)
+![X3D Syntax Highlighting](images/sreenshot1.png)
 
 ## Recommendations
 
