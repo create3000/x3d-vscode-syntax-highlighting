@@ -3,12 +3,12 @@
 PROFILE Interchange
 
 DEF Box Transform {
-   children Shape {
-      appearance Appearance {
-         material Material { }
-      }
-      geometry Box { }
-   }
+  children Shape {
+    appearance Appearance {
+      material Material { }
+    }
+    geometry Box { }
+  }
 }
 
 EXPORT Box AS ExportedBox
