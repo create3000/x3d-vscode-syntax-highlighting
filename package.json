@@ -3,7 +3,7 @@
   "publisher": "create3000",
   "displayName": "X3D Syntax Highlighting for VS Code",
   "description": "Provides syntax highlighting for X3DV, VRML 2.0 and X3DJ files in Visual Studio Code.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "icon": "images/icon.png",
   "homepage": "https://github.com/create3000/x3d-vscode-syntax-highlighting",
