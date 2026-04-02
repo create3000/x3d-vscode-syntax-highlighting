@@ -74,7 +74,7 @@
         {
           "comment": "component names",
           "name": "variable.parameter",
-          "match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|NURBS|Navigation|Networking|ParticleSystems|Picking|PointingDeviceSensor|Rendering|RigidBodyPhysics|Scripting|Shaders|Shape|Sound|Text|TextureProjection|Texturing|Texturing3D|Time|VolumeRendering|WebXR|X_ITE)\\b"
+          "match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|NURBS|Navigation|Networking|ParticleSystems|Picking|PointingDeviceSensor|Rendering|RigidBodyPhysics|Scripting|Shaders|Shape|Sound|Text|TextureProjection|Texturing|Texturing3D|Time|VolumeRendering|X_ITE)\\b"
         },
         {
           "comment": "hex and floating-point numbers",
