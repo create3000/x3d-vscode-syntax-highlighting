@@ -62,11 +62,12 @@
       {
         "id": "X3D",
         "aliases": [
-          "X3D"
+          "X3D",
+          "VRML"
         ],
         "extensions": [
-          ".wrl",
-          ".x3dv"
+          ".x3dv",
+          ".wrl"
         ],
         "configuration": "./X3D.language-configuration.json"
       }
