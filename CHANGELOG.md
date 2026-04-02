@@ -4,7 +4,11 @@ All notable changes to the "x3d-vscode-syntax-highlighting" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 1.0.24
+## 1.0.5
+
+- Added support for X3D JSON Encoding (.x3dj).
+
+## 1.0.4
 
 - Added better support for block comments.
 
