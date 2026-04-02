@@ -82,7 +82,7 @@
           "match": "\\b(?:0[xX][\\da-fA-F]+|[+-]?(?:(?:(?:\\d*\\.\\d+)|(?:\\d+(?:\\.)?))(?:[eE][+-]?\\d+)?))\\b"
         },
         {
-          "comment": "rest of uncolored words",
+          "comment": "rest of uncolored words (field and node names)",
           "name": "variable.parameter",
           "match": "(\\w+)"
         },
