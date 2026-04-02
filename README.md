@@ -1,4 +1,4 @@
-# X3D VRML Classic Encoding Syntax Highlighting
+# X3D Syntax Highlighting
 
 [![VS Code marketplace](https://img.shields.io/static/v1?label=VS%20Code%20Marketplace&message=x3d-vscode-syntax-highlighting&color=blue)](https://marketplace.visualstudio.com/items?itemName=create3000.x3d-vscode-syntax-highlighting)
 [![Open VSX Registry](https://img.shields.io/static/v1?label=Open%20VSX%20Registry&message=x3d-vscode-syntax-highlighting&color=c160ef)](https://open-vsx.org/extension/create3000/x3d-vscode-syntax-highlighting)
