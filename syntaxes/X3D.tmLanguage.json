@@ -16,14 +16,17 @@
     "keywords": {
       "patterns": [
         {
+          "comment": "headers",
           "name": "strong",
           "match": "^#(?:X3D|VRML) V\\d+\\.\\d+ utf8\\s+.*?$"
         },
         {
+          "comment": "single-line comments",
           "name": "comment.line",
           "match": "#.+$"
         },
         {
+          "comment": "DEF statements",
           "match": "\\b(DEF)\\s+(\\w+)\\b",
           "captures": {
             "1": { "name": "keyword.control" },
@@ -31,6 +34,7 @@
           }
         },
         {
+          "comment": "UNIT statements",
           "match": "\\b(UNIT)\\s+(angle|force|length|mass)\\b",
           "captures": {
             "1": { "name": "keyword.control" },
@@ -38,14 +42,17 @@
           }
         },
         {
+          "comment": "keywords",
           "name": "keyword.control",
           "match": "\\b(PROFILE|COMPONENT|UNIT|META|EXTERNPROTO|PROTO|IS|DEF|USE|ROUTE|TO|IMPORT|EXPORT|AS|DESCRIPTION)\\b"
         },
         {
+          "comment": "constants",
           "name": "constant.character",
           "match": "\\b(TRUE|FALSE|NULL)\\b"
         },
         {
+          "comment": "access types and field types",
           "match": "\\b(initializeOnly|inputOutput|inputOnly|outputOnly|field|eventIn|eventOut|exposedField)\\s+([SM]F(?:Bool|Color(?:RGBA)?|Double|Float|Image|Int32|Matrix[34][df]|Node|Rotation|String|Time|Vec[234][df]))\\b",
           "captures": {
             "1": { "name": "keyword.control" },
@@ -53,24 +60,29 @@
           }
         },
         {
+          "comment": "node type names",
           "match": "\\b([^\\x30-\\x39\\x00-\\x20\\x22\\x23\\x27\\x2b\\x2c\\x2d\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]{1}[^\\x00-\\x20\\x22\\x23\\x27\\x2c\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]*)\\s*{",
           "captures": {
             "1": { "name": "support.class" }
           }
         },
         {
+          "comment": "profile names",
           "name": "variable.parameter",
           "match": "\\b(Core|Interchange|Interactive|Immersive|Full|MPEG-4)\\b"
         },
         {
+          "comment": "component names",
           "name": "variable.parameter",
           "match": "\\b(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|NURBS|Navigation|Networking|ParticleSystems|Picking|PointingDeviceSensor|Rendering|RigidBodyPhysics|Scripting|Shaders|Shape|Sound|Text|TextureProjection|Texturing|Texturing3D|Time|VolumeRendering|WebXR|X_ITE)\\b"
         },
         {
+          "comment": "hex and floating-point numbers",
           "name": "constant.numeric",
           "match": "\\b(?:0[xX][\\da-fA-F]+|[+-]?(?:(?:(?:\\d*\\.\\d+)|(?:\\d+(?:\\.)?))(?:[eE][+-]?\\d+)?))\\b"
         },
         {
+          "comment": "rest of uncolored words",
           "name": "variable.parameter",
           "match": "(\\w+)"
         },
