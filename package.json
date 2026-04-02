@@ -52,11 +52,9 @@
     "shell-tools": "^1.1.9",
     "x_ite-node": "^2.0.10"
   },
-  "extensionDependencies": [
-    "create3000.x-ite-vscode-formatter"
-  ],
   "extensionPack": [
-    "create3000.x-ite-vscode"
+    "create3000.x-ite-vscode",
+    "create3000.x-ite-vscode-formatter"
   ],
   "engines": {
     "vscode": "^1.14.0"
