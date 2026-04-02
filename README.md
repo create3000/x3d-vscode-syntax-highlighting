@@ -7,6 +7,10 @@ This Extension adds syntax highlighting support for X3D Classic VRML Encoding (.
 
 ![Syntax Highlighting](images/sreenshot1.png)
 
+## Recommendations
+
+* [Red Hat XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) for X3D XML Encoding
+
 ## License
 
 This software is licensed under the [MIT License](LICENSE.md).
