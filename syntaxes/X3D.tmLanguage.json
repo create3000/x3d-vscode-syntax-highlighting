@@ -56,7 +56,7 @@
           "match": "\\b(initializeOnly|inputOutput|inputOnly|outputOnly|field|eventIn|eventOut|exposedField)\\s+([SM]F(?:Bool|Color(?:RGBA)?|Double|Float|Image|Int32|Matrix[34][df]|Node|Rotation|String|Time|Vec[234][df]))\\b",
           "captures": {
             "1": { "name": "keyword.control.x3d" },
-            "2": { "name": "variable.language.x3d" }
+            "2": { "name": "constant.language.x3d" }
           }
         },
         {
