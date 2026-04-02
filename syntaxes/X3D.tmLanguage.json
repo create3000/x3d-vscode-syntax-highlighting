@@ -69,7 +69,7 @@
         {
           "comment": "profile names",
           "name": "variable.parameter",
-          "match": "\\b(Core|Interchange|Interactive|Immersive|Full|MPEG-4)\\b"
+          "match": "\\b(CADInterchange|Core|Full|Immersive|Interactive|Interchange|MedicalInterchange|MPEG4Interactive)\\b"
         },
         {
           "comment": "component names",
