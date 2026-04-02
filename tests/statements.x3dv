@@ -78,12 +78,19 @@ Script {
   url "ecmascript:
 function initialize ()
 {
-  const a = [ ];
+  const p = [ ];
 
-  for (const c of Browser .supportedComponents)
-    a .push (c .name);
+  for (const { name } of Browser .supportedProfiles)
+    p .push (name);
 
-  console .log (a .sort () .join ('|'));
+  console .log (p .sort () .join ('|'));
+
+  const c = [ ];
+
+  for (const { name } of Browser .supportedComponents)
+    c .push (name);
+
+  console .log (c .sort () .join ('|'));
 }
 "
 }
