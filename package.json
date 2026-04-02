@@ -70,6 +70,12 @@
         "configuration": "./X3D.language-configuration.json"
       },
       {
+        "id": "xml",
+        "extensions": [
+          ".x3d"
+        ]
+      },
+      {
         "id": "json",
         "extensions": [
           ".x3dj"
