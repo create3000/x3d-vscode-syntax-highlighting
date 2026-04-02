@@ -17,7 +17,7 @@
       "patterns": [
         {
           "name": "strong",
-          "match": "^#(?:X3D|VRML) V[\\d\\.]+ utf8\\s+.*?$"
+          "match": "^#(?:X3D|VRML) V\\d+\\.\\d+ utf8\\s+.*?$"
         },
         {
           "name": "comment.line",
