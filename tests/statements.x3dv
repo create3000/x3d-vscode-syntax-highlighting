@@ -142,7 +142,7 @@ function initialize ()
 
   console .log (c .sort () .join ('|'));
 
-  // Test strings in strings.
+  // Test string in string.
   print (\"a image:\", image);
   print (\"some integers:\", ints);
 
