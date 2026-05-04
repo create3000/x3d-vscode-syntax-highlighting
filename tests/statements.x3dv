@@ -91,6 +91,9 @@ function initialize ()
     c .push (name);
 
   console .log (c .sort () .join ('|'));
+
+  print (\"a SFImage:\", image);
+  print (ints);
 }
 "
 }
