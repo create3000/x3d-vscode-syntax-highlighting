@@ -94,7 +94,7 @@ function initialize ()
 
   // Test strings in strings.
   print (\"a SFImage:\", image);
-  print (\"some\", ints);
+  print (\"some Integers:\", ints);
 
   // Test parenthesis.
   foo (bah (bas ()));
