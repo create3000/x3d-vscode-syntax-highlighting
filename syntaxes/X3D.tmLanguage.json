@@ -116,7 +116,7 @@
     "javascript-strings": {
       "include": "source.js",
       "contentName": "source.js",
-      "begin": "\"(?:(?:ecmascript|javascript|vrmlscript):|data:text/javascript,)",
+      "begin": "\"(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
           "name": "string.quoted.double.x3d"
