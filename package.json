@@ -100,7 +100,10 @@
       {
         "language": "X3D",
         "scopeName": "source.x3d",
-        "path": "./syntaxes/X3D.tmLanguage.json"
+        "path": "./syntaxes/X3D.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.js": "javascript"
+        }
       }
     ]
   }

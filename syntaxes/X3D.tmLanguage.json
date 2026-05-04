@@ -9,6 +9,9 @@
       "include": "#keywords"
     },
     {
+      "include": "#javascript-strings"
+    },
+    {
       "include": "#strings"
     }
   ],
@@ -106,6 +109,44 @@
           "name": "comment.block.end.x3d"
         }
       }
+    },
+    "javascript-strings": {
+      "include": "source.js",
+      "contentName": "source.js",
+      "begin": "\"(?:ecmascript|javascript|vrmlscript):",
+      "beginCaptures": {
+        "0": {
+          "name": "string.quoted.double.x3d"
+        }
+      },
+      "end": "\"",
+      "endCaptures": {
+        "0": {
+          "name": "string.quoted.double.x3d"
+        }
+      },
+      "patterns": [
+        {
+          "name": "string.quoted.double.x3d",
+          "match": "\\\\\".*?\\\\\""
+        },
+        {
+          "name": "constant.language.escape.x3d",
+          "match": "\\\\."
+        },
+        {
+          "captures": {
+            "0": {
+              "patterns": [
+                {
+                  "include": "source.js"
+                }
+              ]
+            }
+          },
+          "match": "([^\\\\\"]+)"
+        }
+      ]
     },
     "strings": {
       "name": "string.quoted.double.x3d",

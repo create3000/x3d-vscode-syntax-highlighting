@@ -4,6 +4,10 @@ All notable changes to the "x3d-vscode-syntax-highlighting" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.7
+
+- Highlight embedded JavaScript code in VRML classic encoding.
+
 ## 1.0.5
 
 - Added support for X3D JSON Encoding (.x3dj).
