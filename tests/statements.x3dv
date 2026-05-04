@@ -92,9 +92,15 @@ function initialize ()
 
   console .log (c .sort () .join ('|'));
 
+  // Test strings in strings.
   print (\"a SFImage:\", image);
   print (ints);
+
+  // Test parenthesis.
+  foo (bah (bas ()));
 }
+
+const foo = bah = bas = () => { };
 "
 }
 
