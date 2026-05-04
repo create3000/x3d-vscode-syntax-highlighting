@@ -102,7 +102,8 @@
         "scopeName": "source.x3d",
         "path": "./syntaxes/X3D.tmLanguage.json",
         "embeddedLanguages": {
-          "source.js": "javascript"
+          "source.js": "javascript",
+          "source.glsl": "glsl"
         }
       }
     ]

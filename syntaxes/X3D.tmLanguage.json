@@ -12,6 +12,9 @@
       "include": "#javascript-strings"
     },
     {
+      "include": "#glsl-strings"
+    },
+    {
       "include": "#strings"
     }
   ],
@@ -140,6 +143,40 @@
               "patterns": [
                 {
                   "include": "source.js"
+                }
+              ]
+            }
+          },
+          "match": "([^\\\\\"]+)"
+        }
+      ]
+    },
+    "glsl-strings": {
+      "include": "source.glsl",
+      "contentName": "source.glsl",
+      "begin": "\"(?:data:x-shader/(?:x-vertex|x-fragment),)",
+      "beginCaptures": {
+        "0": {
+          "name": "string.quoted.double.x3d"
+        }
+      },
+      "end": "\"",
+      "endCaptures": {
+        "0": {
+          "name": "string.quoted.double.x3d"
+        }
+      },
+      "patterns": [
+        {
+          "name": "constant.language.escape.x3d",
+          "match": "\\\\."
+        },
+        {
+          "captures": {
+            "0": {
+              "patterns": [
+                {
+                  "include": "source.glsl"
                 }
               ]
             }
