@@ -93,8 +93,8 @@ function initialize ()
   console .log (c .sort () .join ('|'));
 
   // Test strings in strings.
-  print (\"a SFImage:\", image);
-  print (\"some Integers:\", ints);
+  print (\"a image:\", image);
+  print (\"some integers:\", ints);
 
   // Test parenthesis.
   foo (bah (bas ()));
