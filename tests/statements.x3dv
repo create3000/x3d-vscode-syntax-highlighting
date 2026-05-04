@@ -1,16 +1,19 @@
-#X3D V4.1 utf8 X_ITE V14.1.2
+#X3D V4.1 utf8 X_ITE V15.0.0
 
 PROFILE Interchange
 
+COMPONENT Core : 2
+COMPONENT Networking : 2
 COMPONENT Scripting : 1
+COMPONENT Shaders : 1
 
 UNIT angle degree 0.017453292519943295
 
 META "key" "value (https://example.com/foo/bah.html)"
 META "creator" "Holger Seelig"
 META "created" "Wed, 01 Apr 2026 15:12:51 GMT"
-META "modified" "Wed, 01 Apr 2026 15:15:11 GMT"
-META "generator" "Sunrize X3D Editor V2.0.11, https://create3000.github.io/sunrize/"
+META "modified" "Mon, 04 May 2026 17:26:39 GMT"
+META "generator" "Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/"
 
 EXTERNPROTO Extern [
   initializeOnly SFString name
@@ -29,17 +32,9 @@ PROTO Proto [
   }
 }
 
-# Comment
-
 DEF NoComment1 Group { }
 
-#/* Multiple
-  * Lines
-  * Comment */#
-
 DEF NoComment2 Group { }
-
-# Another comment
 
 DEF Box1 Transform {
   translation -3 0 0
@@ -55,7 +50,45 @@ DEF Box2 Transform {
   translation 3 0 0
   children Shape {
     appearance Appearance {
-      material Material { }
+      shaders DEF NewShader ComposedShader {
+        language "GLSL"
+        parts [
+          DEF VertexShader ShaderPart {
+            url "data:x-shader/x-vertex,#version 300 es
+
+precision highp float;
+precision highp int;
+
+uniform mat4 x3d_ProjectionMatrix;
+uniform mat4 x3d_ModelViewMatrix;
+
+in vec4 x3d_Vertex;
+
+void
+main ()
+{
+   gl_Position = x3d_ProjectionMatrix * x3d_ModelViewMatrix * x3d_Vertex;
+}
+"
+          }
+          DEF FragmentShader ShaderPart {
+            type "FRAGMENT"
+            url "data:x-shader/x-fragment,#version 300 es
+
+precision highp float;
+precision highp int;
+
+out vec4 x3d_FragColor;
+
+void
+main ()
+{
+   x3d_FragColor = vec4 (1.0, 0.0, 0.0, 1.0);
+}
+"
+          }
+        ]
+      }
     }
     geometry USE Geometry
   }
@@ -71,9 +104,26 @@ Script {
   inputOutput SFNode   null NULL
   inputOutput SFColor  color 1 0 0
   inputOutput SFString string "Hello World"
-  inputOutput MFFloat  floats [ 0.123, 1e-3, 123 ]
-  inputOutput MFInt32  ints [ -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
-  inputOutput SFImage  image 1 1 3 0xffaa33
+  inputOutput MFFloat  floats [
+    0.123,
+    0.001,
+    123
+  ]
+  inputOutput MFInt32  ints [
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+  inputOutput SFImage  image 1 1 3
+    0xffaa33
 
   url "ecmascript:
 function initialize ()
@@ -108,9 +158,9 @@ DEF Inline Inline {
   url "box.x3dv"
 }
 
-ROUTE Box1.translation TO Box2.translation
-ROUTE Box2.translation TO Box1.translation
-
 IMPORT Inline.ExportedBox AS ImportedBox DESCRIPTION "ImportedBox Description"
+
+ROUTE Box1.translation_changed TO Box2.set_translation
+ROUTE Box2.translation_changed TO Box1.set_translation
 
 EXPORT Box1 AS ExportedBox DESCRIPTION "ExportedBox Description"
