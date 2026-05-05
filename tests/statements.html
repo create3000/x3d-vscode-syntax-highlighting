@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script defer src="https://cdn.jsdelivr.net/npm/x_ite@latest/dist/x_ite.min.js"></script>
+    <style>
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400&family=Source+Sans+3:ital,wght@0,400&display=swap");
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: rgb(42, 42, 42);
+    --background-color: white;
+    --link-color: rgb(0, 86, 178);
+    --link-hover-color: rgb(210, 96, 58);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: rgb(175, 176, 177);
+    --background-color: rgb(27, 27, 30);
+    --link-color: rgb(82, 108, 150);
+    --link-hover-color: rgb(210, 96, 58);
+  }
+}
+
+body {
+  color-scheme: light dark;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.08rem;
+}
+
+body > * {
+  flex: 0 0 auto;
+  padding: 0px 1rem;
+}
+
+h1 {
+   font-family: Lato, sans-serif;
+}
+
+x3d-canvas {
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  border-top: 1px solid color-mix(in srgb, var(--text-color), transparent 90%);
+  border-bottom: 1px solid color-mix(in srgb, var(--text-color), transparent 90%);
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+    </style>
+  </head>
+  <body>
+    <h1>statements.html</h1>
+    <x3d-canvas>
+      <X3D profile='Interchange' version='4.1' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-4.1.xsd'>
+        <head>
+          <component name='Core' level='2'></component>
+          <component name='Networking' level='2'></component>
+          <component name='Scripting' level='1'></component>
+          <component name='Shaders' level='1'></component>
+          <unit category='angle' name='degree' conversionFactor='0.017453292519943295'></unit>
+          <meta name='key' content='value (https://example.com/foo/bah.html)'></meta>
+          <meta name='creator' content='Holger Seelig'></meta>
+          <meta name='created' content='Wed, 01 Apr 2026 15:12:51 GMT'></meta>
+          <meta name='modified' content='Tue, 05 May 2026 14:32:36 GMT'></meta>
+          <meta name='generator' content='Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/'></meta>
+        </head>
+        <Scene>
+          <ExternProtoDeclare name='Extern' url=''>
+            <field accessType='initializeOnly' type='SFString' name='name'></field>
+          </ExternProtoDeclare>
+          <ProtoDeclare name='Proto'>
+            <ProtoInterface>
+              <field accessType='initializeOnly' type='SFString' name='name' value='DefaultName'></field>
+              <field accessType='inputOnly' type='SFVec3f' name='translation'></field>
+              <field accessType='outputOnly' type='SFRotation' name='rotation'></field>
+              <field accessType='inputOutput' type='MFNode' name='children'></field>
+            </ProtoInterface>
+            <ProtoBody>
+              <Group>
+                <IS>
+                  <connect nodeField='children' protoField='children'></connect>
+                </IS>
+              </Group>
+            </ProtoBody>
+          </ProtoDeclare>
+          <Group DEF='NoComment1'></Group>
+          <Group DEF='NoComment2'></Group>
+          <Transform DEF='Box1'
+              translation='-3 0 0'>
+            <Shape>
+              <Appearance>
+                <Material></Material>
+              </Appearance>
+              <Box DEF='Geometry'></Box>
+            </Shape>
+          </Transform>
+          <Transform DEF='Box2'
+              translation='3 0 0'>
+            <Shape>
+              <Appearance>
+                <ComposedShader DEF='NewShader'
+                    language='GLSL'>
+                  <ShaderPart DEF='VertexShader'>
+<![CDATA[data:x-shader/x-vertex,#version 300 es
+
+precision highp float;
+precision highp int;
+
+uniform mat4 x3d_ProjectionMatrix;
+uniform mat4 x3d_ModelViewMatrix;
+
+in vec4 x3d_Vertex;
+
+void
+main ()
+{
+   gl_Position = x3d_ProjectionMatrix * x3d_ModelViewMatrix * x3d_Vertex;
+}
+]]>
+                  </ShaderPart>
+                  <ShaderPart DEF='FragmentShader'
+                      type='FRAGMENT'>
+<![CDATA[data:x-shader/x-fragment,#version 300 es
+
+precision highp float;
+precision highp int;
+
+out vec4 x3d_FragColor;
+
+void
+main ()
+{
+   x3d_FragColor = vec4 (1.0, 0.0, 0.0, 1.0);
+}
+]]>
+                  </ShaderPart>
+                </ComposedShader>
+              </Appearance>
+              <Box USE='Geometry'></Box>
+            </Shape>
+          </Transform>
+          <ProtoInstance name='Proto' DEF='Instance'>
+            <fieldValue name='name' value='CustomProto'></fieldValue>
+          </ProtoInstance>
+          <Script type='model/x3d+xml'>
+            <field accessType='inputOutput' type='SFBool' name='true' value='true'></field>
+            <field accessType='inputOutput' type='SFBool' name='false'></field>
+            <field accessType='inputOutput' type='SFNode' name='null'></field>
+            <field accessType='inputOutput' type='SFColor' name='color' value='1 0 0'></field>
+            <field accessType='inputOutput' type='SFString' name='string' value='Hello World'></field>
+            <field accessType='inputOutput' type='MFFloat' name='floats' value='0.123, 0.001, 123'></field>
+            <field accessType='inputOutput' type='MFInt32' name='ints' value='-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9'></field>
+            <field accessType='inputOutput' type='SFImage' name='image' value='1 1 3
+              0xffaa33'></field>
+<![CDATA[ecmascript:
+function initialize ()
+{
+  const p = [ ];
+
+  for (const { name } of Browser .supportedProfiles)
+    p .push (name);
+
+  console .log (p .sort () .join ('|'));
+
+  const c = [ ];
+
+  for (const { name } of Browser .supportedComponents)
+    c .push (name);
+
+  console .log (c .sort () .join ('|'));
+
+  // Test string in string.
+  print ("a image:", image);
+  print ("some integers:", ints);
+
+  print ("foo \\ \"string in string\" bah", image);
+  print (SFColor .fromString (/* css */ `rgb(50, 100, 200)`), 'foo');
+
+  // Test parentheses.
+  foo (bah (bas ()));
+}
+
+const foo = bah = bas = () => { };
+]]>
+          </Script>
+          <Inline DEF='Inline'
+              url='"box.x3dv"'></Inline>
+          <IMPORT inlineDEF='Inline' importedDEF='ExportedBox' AS='ImportedBox' DESCRIPTION='ImportedBox Description'></IMPORT>
+          <ROUTE fromNode='Box1' fromField='translation_changed' toNode='Box2' toField='set_translation'></ROUTE>
+          <ROUTE fromNode='Box2' fromField='translation_changed' toNode='Box1' toField='set_translation'></ROUTE>
+          <EXPORT localDEF='Box1' AS='ExportedBox' DESCRIPTION='ExportedBox Description'></EXPORT>
+        </Scene>
+      </X3D>
+    </x3d-canvas>
+    <p>Made with <a href="https://create3000.github.io/sunrize/" target="_blank">Sunrize X3D Editor</a>. If local files are not loaded <a href="https://create3000.github.io/x_ite/setup-a-localhost-server">consider setup a localhost server</a> or use <a href="https://create3000.github.io/x_ite/dom-integration">DOM integration methods</a>.</p>
+  </body>
+</html>

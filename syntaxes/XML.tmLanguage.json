@@ -1,6 +1,6 @@
 {
   "fileTypes": [],
-  "injectionSelector": "L:text.xml -comment -(string - meta.embedded)",
+  "injectionSelector": "L:text.xml -comment -(string - meta.embedded), L:text.html -comment -(string - meta.embedded)",
   "patterns": [
     {
       "include": "#xml-cdata-javascript"

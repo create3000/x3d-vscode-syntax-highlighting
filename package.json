@@ -108,7 +108,8 @@
       },
       {
         "injectTo": [
-          "text.xml"
+          "text.xml",
+          "text.html"
         ],
         "scopeName": "xml.cdata.languages.x3d",
         "path": "./syntaxes/XML.tmLanguage.json",
