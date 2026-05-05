@@ -6,11 +6,12 @@
     <component name='Networking' level='2'/>
     <component name='Scripting' level='1'/>
     <component name='Shaders' level='1'/>
+    <component name='X_ITE' level='1'/>
     <unit category='angle' name='degree' conversionFactor='0.017453292519943295'/>
     <meta name='key' content='value (https://example.com/foo/bah.html)'/>
     <meta name='creator' content='Holger Seelig'/>
     <meta name='created' content='Wed, 01 Apr 2026 15:12:51 GMT'/>
-    <meta name='modified' content='Tue, 05 May 2026 15:38:40 GMT'/>
+    <meta name='modified' content='Tue, 05 May 2026 16:50:15 GMT'/>
     <meta name='generator' content='Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/'/>
   </head>
   <Scene>
@@ -36,12 +37,13 @@
     <Group DEF='NoComment2'/>
     <Transform DEF='Box1'
         translation='-3 0 0'>
-      <Shape>
+      <InstancedShape
+          translations='0 0 0'>
         <Appearance>
           <Material/>
         </Appearance>
         <Box DEF='Geometry'/>
-      </Shape>
+      </InstancedShape>
     </Transform>
     <Transform DEF='Box2'
         translation='3 0 0'>

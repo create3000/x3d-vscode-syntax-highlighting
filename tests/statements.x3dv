@@ -6,13 +6,14 @@ COMPONENT Core : 2
 COMPONENT Networking : 2
 COMPONENT Scripting : 1
 COMPONENT Shaders : 1
+COMPONENT X_ITE : 1
 
 UNIT angle degree 0.017453292519943295
 
 META "key" "value (https://example.com/foo/bah.html)"
 META "creator" "Holger Seelig"
 META "created" "Wed, 01 Apr 2026 15:12:51 GMT"
-META "modified" "Mon, 04 May 2026 17:26:39 GMT"
+META "modified" "Tue, 05 May 2026 16:49:55 GMT"
 META "generator" "Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/"
 
 EXTERNPROTO Extern [
@@ -38,7 +39,8 @@ DEF NoComment2 Group { }
 
 DEF Box1 Transform {
   translation -3 0 0
-  children Shape {
+  children InstancedShape {
+    translations 0 0 0
     appearance Appearance {
       material Material { }
     }
