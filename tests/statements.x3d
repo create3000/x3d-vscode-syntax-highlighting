@@ -10,7 +10,7 @@
     <meta name='key' content='value (https://example.com/foo/bah.html)'/>
     <meta name='creator' content='Holger Seelig'/>
     <meta name='created' content='Wed, 01 Apr 2026 15:12:51 GMT'/>
-    <meta name='modified' content='Tue, 05 May 2026 09:41:04 GMT'/>
+    <meta name='modified' content='Tue, 05 May 2026 15:35:19 GMT'/>
     <meta name='generator' content='Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/'/>
   </head>
   <Scene>
@@ -118,14 +118,15 @@ function initialize ()
 
   console .log (c .sort () .join ('|'));
 
-  // Test strings in strings.
+  // Test string in string.
   print ("a image:", image);
   print ("some integers:", ints);
 
+  print ("foo", image, "foo \"string in string\" ")
   print ("foo \\ \"string in string\" bah", image);
-  print (/* css */ `rgb(50, 100, 200)`, 'foo');
+  print (SFColor .fromString (/* css */ `rgb(50, 100, 200)`), 'foo');
 
-  // Test parenthesis.
+  // Test parentheses.
   foo (bah (bas ()));
 }
 

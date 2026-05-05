@@ -134,7 +134,7 @@
       "patterns": [
         {
           "name": "string.quoted.double.x3d",
-          "match": "\\\\\".*\\\\\""
+          "match": "(?<!\\\\)\\\\\".*?(?<!\\\\)\\\\\""
         },
         {
           "name": "constant.language.escape.x3d",
