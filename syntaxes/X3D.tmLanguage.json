@@ -23,7 +23,7 @@
       "patterns": [
         {
           "comment": "headers",
-          "name": "constant.language.x3d",
+          "name": "comment.line.x3d",
           "match": "^#(?:X3D|VRML) V\\d+\\.\\d+ utf8\\s+.*?$"
         },
         {
