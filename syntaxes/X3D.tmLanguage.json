@@ -32,6 +32,14 @@
           "match": "#.+$"
         },
         {
+          "comment": "PROFILE statement",
+          "match": "\\b(PROFILE)\\s+(CADInterchange|Core|Full|Immersive|Interactive|Interchange|MedicalInterchange|MPEG4Interactive)\\b",
+          "captures": {
+            "1": { "name": "keyword.control.x3d" },
+            "2": { "name": "constant.language.x3d" }
+          }
+        },
+        {
           "comment": "COMPONENT statements",
           "match": "\\b(COMPONENT)\\s+(CADGeometry|Core|CubeMapTexturing|DIS|EnvironmentalEffects|EnvironmentalSensor|EventUtilities|Followers|Geometry2D|Geometry3D|Geospatial|Grouping|HAnim|Interpolation|KeyDeviceSensor|Layering|Layout|Lighting|NURBS|Navigation|Networking|ParticleSystems|Picking|PointingDeviceSensor|Rendering|RigidBodyPhysics|Scripting|Shaders|Shape|Sound|Text|TextureProjection|Texturing|Texturing3D|Time|VolumeRendering|X_ITE)\\b",
           "captures": {
@@ -79,11 +87,6 @@
           "captures": {
             "1": { "name": "support.class.x3d" }
           }
-        },
-        {
-          "comment": "profile names",
-          "name": "variable.other.readwrite.x3d",
-          "match": "\\b(CADInterchange|Core|Full|Immersive|Interactive|Interchange|MedicalInterchange|MPEG4Interactive)\\b"
         },
         {
           "comment": "hex and floating-point numbers",
