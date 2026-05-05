@@ -13,10 +13,13 @@
   "repository": {
     "xml-cdata-javascript": {
       "contentName": "source.js",
-      "begin": "<!\\[CDATA\\[\\s*(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
+      "begin": "<!\\[CDATA\\[\\s*((?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
           "name": "comment.block.xml"
+        },
+        "1": {
+          "name": "string.xml"
         }
       },
       "end": "\\]\\]>",
@@ -37,10 +40,13 @@
     },
     "xml-cdata-glsl": {
       "contentName": "source.glsl",
-      "begin": "<!\\[CDATA\\[\\s*data:x-shader/x-(?:vertex|fragment),",
+      "begin": "<!\\[CDATA\\[\\s*(data:x-shader/x-(?:vertex|fragment)),",
       "beginCaptures": {
         "0": {
           "name": "comment.block.xml"
+        },
+        "1": {
+          "name": "string.xml"
         }
       },
       "end": "\\]\\]>",

@@ -116,10 +116,13 @@
     "javascript-strings": {
       "include": "source.js",
       "contentName": "source.js",
-      "begin": "\"(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
+      "begin": "\"((?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
           "name": "string.quoted.double.x3d"
+        },
+        "1": {
+          "name": "comment.line.x3d"
         }
       },
       "end": "\"",
@@ -154,10 +157,13 @@
     "glsl-strings": {
       "include": "source.glsl",
       "contentName": "source.glsl",
-      "begin": "\"(?:data:x-shader/(?:x-vertex|x-fragment),)",
+      "begin": "\"(data:x-shader/(?:x-vertex|x-fragment),)",
       "beginCaptures": {
         "0": {
           "name": "string.quoted.double.x3d"
+        },
+        "1": {
+          "name": "comment.line.x3d"
         }
       },
       "end": "\"",
