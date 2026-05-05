@@ -13,7 +13,7 @@
   "repository": {
     "xml-cdata-javascript": {
       "name": "xml.cdata.languages.javascript",
-      "contentName": "xml.cdata.languages.javascript",
+      "contentName": "source.js",
       "begin": "<!\\[CDATA\\[\\s*(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
@@ -38,7 +38,7 @@
     },
     "xml-cdata-glsl": {
       "name": "xml.cdata.languages.glsl",
-      "contentName": "xml.cdata.languages.glsl",
+      "contentName": "source.glsl",
       "begin": "<!\\[CDATA\\[\\s*data:x-shader/x-(?:vertex|fragment),",
       "beginCaptures": {
         "0": {
