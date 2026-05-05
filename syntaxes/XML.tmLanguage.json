@@ -14,13 +14,13 @@
     "xml-cdata-javascript": {
       "name": "xml.cdata.languages.javascript",
       "contentName": "xml.cdata.languages.javascript",
-      "begin": "(<!\\[CDATA\\[\\s*(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,))",
+      "begin": "<!\\[CDATA\\[\\s*(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
           "name": "comment.block.xml"
         }
       },
-      "end": "(\\]\\]>)",
+      "end": "\\]\\]>",
       "endCaptures": {
         "0": {
           "name": "comment.block.xml"
@@ -28,7 +28,10 @@
       },
       "patterns": [
         {
-          "include": "source.js",
+          "include": "source.js"
+        },
+        {
+          "comment": "if it is not source.js it is something else",
           "match": "."
         }
       ]
@@ -36,13 +39,13 @@
     "xml-cdata-glsl": {
       "name": "xml.cdata.languages.glsl",
       "contentName": "xml.cdata.languages.glsl",
-      "begin": "(<!\\[CDATA\\[\\s*data:x-shader/x-(?:vertex|fragment),)",
+      "begin": "<!\\[CDATA\\[\\s*data:x-shader/x-(?:vertex|fragment),",
       "beginCaptures": {
         "0": {
           "name": "comment.block.xml"
         }
       },
-      "end": "(\\]\\]>)",
+      "end": "\\]\\]>",
       "endCaptures": {
         "0": {
           "name": "comment.block.xml"
@@ -50,7 +53,10 @@
       },
       "patterns": [
         {
-          "include": "source.glsl",
+          "include": "source.glsl"
+        },
+        {
+          "comment": "if it is not source.glsl it is something else",
           "match": "."
         }
       ]
