@@ -115,7 +115,7 @@
     },
     "javascript-strings": {
       "include": "source.js",
-      "contentName": "source.js",
+      "contentName": "string.javascript.x3d",
       "begin": "\"(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,)",
       "beginCaptures": {
         "0": {
@@ -153,7 +153,7 @@
     },
     "glsl-strings": {
       "include": "source.glsl",
-      "contentName": "source.glsl",
+      "contentName": "string.glsl.x3d",
       "begin": "\"(?:data:x-shader/(?:x-vertex|x-fragment),)",
       "beginCaptures": {
         "0": {

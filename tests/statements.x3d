@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 4.1//EN" "https://www.web3d.org/specifications/x3d-4.1.dtd">
+<X3D profile='Interchange' version='4.1' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-4.1.xsd'>
+  <head>
+    <component name='Core' level='2'/>
+    <component name='Networking' level='2'/>
+    <component name='Scripting' level='1'/>
+    <component name='Shaders' level='1'/>
+    <unit category='angle' name='degree' conversionFactor='0.017453292519943295'/>
+    <meta name='key' content='value (https://example.com/foo/bah.html)'/>
+    <meta name='creator' content='Holger Seelig'/>
+    <meta name='created' content='Wed, 01 Apr 2026 15:12:51 GMT'/>
+    <meta name='modified' content='Tue, 05 May 2026 09:41:04 GMT'/>
+    <meta name='generator' content='Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/'/>
+  </head>
+  <Scene>
+    <ExternProtoDeclare name='Extern' url=''>
+      <field accessType='initializeOnly' type='SFString' name='name'/>
+    </ExternProtoDeclare>
+    <ProtoDeclare name='Proto'>
+      <ProtoInterface>
+        <field accessType='initializeOnly' type='SFString' name='name' value='DefaultName'/>
+        <field accessType='inputOnly' type='SFVec3f' name='translation'/>
+        <field accessType='outputOnly' type='SFRotation' name='rotation'/>
+        <field accessType='inputOutput' type='MFNode' name='children'/>
+      </ProtoInterface>
+      <ProtoBody>
+        <Group>
+          <IS>
+            <connect nodeField='children' protoField='children'/>
+          </IS>
+        </Group>
+      </ProtoBody>
+    </ProtoDeclare>
+    <Group DEF='NoComment1'/>
+    <Group DEF='NoComment2'/>
+    <Transform DEF='Box1'
+        translation='-3 0 0'>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <Box DEF='Geometry'/>
+      </Shape>
+    </Transform>
+    <Transform DEF='Box2'
+        translation='3 0 0'>
+      <Shape>
+        <Appearance>
+          <ComposedShader DEF='NewShader'
+              language='GLSL'>
+            <ShaderPart DEF='VertexShader'>
+<![CDATA[data:x-shader/x-vertex,#version 300 es
+
+precision highp float;
+precision highp int;
+
+uniform mat4 x3d_ProjectionMatrix;
+uniform mat4 x3d_ModelViewMatrix;
+
+in vec4 x3d_Vertex;
+
+void
+main ()
+{
+   gl_Position = x3d_ProjectionMatrix * x3d_ModelViewMatrix * x3d_Vertex;
+}
+]]>
+            </ShaderPart>
+            <ShaderPart DEF='FragmentShader'
+                type='FRAGMENT'>
+<![CDATA[data:x-shader/x-fragment,#version 300 es
+
+precision highp float;
+precision highp int;
+
+out vec4 x3d_FragColor;
+
+void
+main ()
+{
+   x3d_FragColor = vec4 (1.0, 0.0, 0.0, 1.0);
+}
+]]>
+            </ShaderPart>
+          </ComposedShader>
+        </Appearance>
+        <Box USE='Geometry'/>
+      </Shape>
+    </Transform>
+    <ProtoInstance name='Proto' DEF='Instance'>
+      <fieldValue name='name' value='CustomProto'/>
+    </ProtoInstance>
+    <Script>
+      <field accessType='inputOutput' type='SFBool' name='true' value='true'/>
+      <field accessType='inputOutput' type='SFBool' name='false'/>
+      <field accessType='inputOutput' type='SFNode' name='null'/>
+      <field accessType='inputOutput' type='SFColor' name='color' value='1 0 0'/>
+      <field accessType='inputOutput' type='SFString' name='string' value='Hello World'/>
+      <field accessType='inputOutput' type='MFFloat' name='floats' value='0.123, 0.001, 123'/>
+      <field accessType='inputOutput' type='MFInt32' name='ints' value='-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9'/>
+      <field accessType='inputOutput' type='SFImage' name='image' value='1 1 3
+        0xffaa33'/>
+<![CDATA[ecmascript:
+function initialize ()
+{
+  const p = [ ];
+
+  for (const { name } of Browser .supportedProfiles)
+    p .push (name);
+
+  console .log (p .sort () .join ('|'));
+
+  const c = [ ];
+
+  for (const { name } of Browser .supportedComponents)
+    c .push (name);
+
+  console .log (c .sort () .join ('|'));
+
+  // Test strings in strings.
+  print ("a image:", image);
+  print ("some integers:", ints);
+
+  print ("foo \\ \"string in string\" bah", image);
+  print (/* css */ `rgb(50, 100, 200)`, 'foo');
+
+  // Test parenthesis.
+  foo (bah (bas ()));
+}
+
+const foo = bah = bas = () => { };
+]]>
+    </Script>
+    <Inline DEF='Inline'
+        url='"box.x3dv"'/>
+    <IMPORT inlineDEF='Inline' importedDEF='ExportedBox' AS='ImportedBox' DESCRIPTION='ImportedBox Description'/>
+    <ROUTE fromNode='Box1' fromField='translation_changed' toNode='Box2' toField='set_translation'/>
+    <ROUTE fromNode='Box2' fromField='translation_changed' toNode='Box1' toField='set_translation'/>
+    <EXPORT localDEF='Box1' AS='ExportedBox' DESCRIPTION='ExportedBox Description'/>
+  </Scene>
+</X3D>

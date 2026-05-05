@@ -1,0 +1,63 @@
+{
+  "fileTypes": [],
+  "injectionSelector": "L:text.xml -comment -(string - meta.embedded)",
+  "patterns": [
+    {
+      "include": "#xml-cdata-javascript"
+    },
+    {
+      "include": "#xml-cdata-glsl"
+    }
+  ],
+  "scopeName": "xml.cdata.languages.x3d",
+  "repository": {
+    "xml-cdata-javascript": {
+      "name": "xml.cdata.languages.javascript",
+      "contentName": "xml.cdata.languages.javascript",
+      "begin": "(<!\\[CDATA\\[\\s*(?:(?:ecmascript|javascript|vrmlscript):|data:(?:text|application)/javascript,))",
+      "beginCaptures": {
+        "0": {
+          "name": "comment.block.xml"
+        }
+      },
+      "end": "(\\]\\]>)",
+      "endCaptures": {
+        "0": {
+          "name": "comment.block.xml"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.js"
+        },
+        {
+          "match": "."
+        }
+      ]
+    },
+    "xml-cdata-glsl": {
+      "name": "xml.cdata.languages.glsl",
+      "contentName": "xml.cdata.languages.glsl",
+      "begin": "(<!\\[CDATA\\[\\s*data:x-shader/x-(?:vertex|fragment),)",
+      "beginCaptures": {
+        "0": {
+          "name": "comment.block.xml"
+        }
+      },
+      "end": "(\\]\\]>)",
+      "endCaptures": {
+        "0": {
+          "name": "comment.block.xml"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.glsl"
+        },
+        {
+          "match": "."
+        }
+      ]
+    }
+  }
+}
