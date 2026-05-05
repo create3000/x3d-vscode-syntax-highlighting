@@ -28,9 +28,7 @@
       },
       "patterns": [
         {
-          "include": "source.js"
-        },
-        {
+          "include": "source.js",
           "match": "."
         }
       ]
@@ -52,9 +50,7 @@
       },
       "patterns": [
         {
-          "include": "source.glsl"
-        },
-        {
+          "include": "source.glsl",
           "match": "."
         }
       ]
