@@ -4,6 +4,10 @@ All notable changes to the "x3d-vscode-syntax-highlighting" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.0
+
+- Highlight field tags in Script elements in HTML.
+
 ## 1.1.2
 
 - Highlight CDATA JavaScript and GLSL in HTML files.
