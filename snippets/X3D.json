@@ -3035,13 +3035,6 @@
       "backUrl"
     ]
   },
-  "background": {
-    "prefix": "background",
-    "description": "",
-    "body": [
-      "background"
-    ]
-  },
   "baseColor": {
     "prefix": "baseColor",
     "description": "",
@@ -4463,13 +4456,6 @@
       "floatTimeDomainData"
     ]
   },
-  "fog": {
-    "prefix": "fog",
-    "description": "",
-    "body": [
-      "fog"
-    ]
-  },
   "fogCoord": {
     "prefix": "fogCoord",
     "description": "",
@@ -5604,6 +5590,13 @@
       "maxTorque2"
     ]
   },
+  "maximumNumberFrames": {
+    "prefix": "maximumNumberFrames",
+    "description": "",
+    "body": [
+      "maximumNumberFrames"
+    ]
+  },
   "mediaDeviceID": {
     "prefix": "mediaDeviceID",
     "description": "",
@@ -6619,6 +6612,13 @@
       "repeatT"
     ]
   },
+  "replaceImage": {
+    "prefix": "replaceImage",
+    "description": "",
+    "body": [
+      "replaceImage"
+    ]
+  },
   "resetAllJoints": {
     "prefix": "resetAllJoints",
     "description": "",
@@ -6785,13 +6785,6 @@
     "description": "",
     "body": [
       "scatterAnisotropy"
-    ]
-  },
-  "scene": {
-    "prefix": "scene",
-    "description": "",
-    "body": [
-      "scene"
     ]
   },
   "segmentEnabled": {
@@ -7303,6 +7296,13 @@
     "description": "",
     "body": [
       "slipFactors"
+    ]
+  },
+  "smooth": {
+    "prefix": "smooth",
+    "description": "",
+    "body": [
+      "smooth"
     ]
   },
   "smoothingTimeConstant": {
@@ -8131,6 +8131,13 @@
       "update"
     ]
   },
+  "updateInterval": {
+    "prefix": "updateInterval",
+    "description": "",
+    "body": [
+      "updateInterval"
+    ]
+  },
   "url": {
     "prefix": "url",
     "description": "",
@@ -8255,13 +8262,6 @@
     "description": "",
     "body": [
       "viewAll"
-    ]
-  },
-  "viewpoint": {
-    "prefix": "viewpoint",
-    "description": "",
-    "body": [
-      "viewpoint"
     ]
   },
   "viewpoints": {
