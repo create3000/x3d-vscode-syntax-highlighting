@@ -9,7 +9,7 @@
   "scopeName": "html.script.fields.x3d",
   "repository": {
     "html-script-fields": {
-      "begin": "(?:(>)|.)(?=<(?i:x3d-canvas))",
+      "begin": "(?:(>)|.)(?=<(?i:x3d-canvas))(?!.*?</(?i:x3d-canvas))",
       "beginCaptures": {
 				"1": {
 					"name": "punctuation.definition.tag.end.html"
