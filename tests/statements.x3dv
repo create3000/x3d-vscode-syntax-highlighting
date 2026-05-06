@@ -13,7 +13,7 @@ UNIT angle degree 0.017453292519943295
 META "key" "value (https://example.com/foo/bah.html)"
 META "creator" "Holger Seelig"
 META "created" "Wed, 01 Apr 2026 15:12:51 GMT"
-META "modified" "Tue, 05 May 2026 16:49:55 GMT"
+META "modified" "Wed, 06 May 2026 08:12:06 GMT"
 META "generator" "Sunrize X3D Editor V2.0.16, https://create3000.github.io/sunrize/"
 
 EXTERNPROTO Extern [
@@ -96,22 +96,22 @@ main ()
   }
 }
 
-DEF Instance Proto {
+DEF Instance_1 Proto {
   name "CustomProto"
 }
 
 Script {
-  inputOutput SFBool   true TRUE
-  inputOutput SFBool   false FALSE
-  inputOutput SFNode   null NULL
-  inputOutput SFColor  color 1 0 0
-  inputOutput SFString string "Hello World"
-  inputOutput MFFloat  floats [
+  inputOutput    SFBool   true TRUE
+  inputOutput    SFBool   false FALSE
+  inputOutput    SFNode   null NULL
+  inputOutput    SFColor  color 1 0 0
+  inputOutput    SFString string "Hello World"
+  inputOutput    MFFloat  floats [
     0.123,
     0.001,
     123
   ]
-  inputOutput MFInt32  ints [
+  inputOutput    MFInt32  ints [
     -1,
     0,
     1,
@@ -124,8 +124,15 @@ Script {
     8,
     9
   ]
-  inputOutput SFImage  image 1 1 3
+  inputOutput    SFImage  image 1 1 3
     0xffaa33
+  initializeOnly MFNode   nodes [
+    Material { }
+    DEF Instance Proto {
+      name "CustomProto"
+    }
+    USE Box2
+  ]
 
   url "ecmascript:
 function initialize ()
