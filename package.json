@@ -117,6 +117,13 @@
           "source.js": "javascript",
           "source.glsl": "glsl"
         }
+      },
+      {
+        "injectTo": [
+          "text.html"
+        ],
+        "scopeName": "html.script.fields.x3d",
+        "path": "./syntaxes/HTML.tmLanguage.json"
       }
     ]
   }
