@@ -64,11 +64,11 @@
           }
         },
         {
-          "comment": "DEF statements",
-          "match": "\\b(DEF)\\s+([^\\x30-\\x39\\x00-\\x20\\x22\\x23\\x27\\x2b\\x2c\\x2d\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]{1}[^\\x00-\\x20\\x22\\x23\\x27\\x2c\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]*)\\b",
+          "comment": "DEF, USE, ROUTE, TO, EXPORT, IMPORT, AS statements",
+          "match": "\\b(DEF|USE|ROUTE|TO|EXPORT|IMPORT|AS)\\s+([^\\x30-\\x39\\x00-\\x20\\x22\\x23\\x27\\x2b\\x2c\\x2d\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]{1}[^\\x00-\\x20\\x22\\x23\\x27\\x2c\\x2e\\x5b\\x5c\\x5d\\x7b\\x7d\\x7f]*)\\b",
           "captures": {
             "1": { "name": "keyword.control.x3d" },
-            "2": { "name": "variable.other.readwrite.x3d" }
+            "2": { "name": "constant.language.x3d" }
           }
         },
         {
