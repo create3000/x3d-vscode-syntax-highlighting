@@ -1,6 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "X3DV",
+  "scopeName": "source.x3dv",
   "patterns": [
     {
       "include": "#blockComment"
@@ -216,6 +217,5 @@
         }
       ]
     }
-  },
-  "scopeName": "source.x3dv"
+  }
 }

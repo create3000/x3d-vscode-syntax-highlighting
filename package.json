@@ -66,10 +66,11 @@
   "contributes": {
     "languages": [
       {
-        "id": "X3DV",
+        "id": "x3dv",
         "aliases": [
           "X3DV",
-          "VRML"
+          "VRML",
+          "vrml"
         ],
         "extensions": [
           ".x3dv",
@@ -93,13 +94,13 @@
     ],
     "snippets": [
       {
-        "language": "X3DV",
+        "language": "x3dv",
         "path": "./snippets/x3dv.json"
       }
     ],
     "grammars": [
       {
-        "language": "X3DV",
+        "language": "x3dv",
         "scopeName": "source.x3dv",
         "path": "./syntaxes/x3dv.tmLanguage.json",
         "embeddedLanguages": {
