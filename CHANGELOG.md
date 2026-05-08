@@ -4,6 +4,11 @@ All notable changes to the "x3d-vscode-syntax-highlighting" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.3.0
+
+- Highlight embedded X3D in markdown.
+- Highlight embedded VRML in markdown.
+
 ## 1.2.0
 
 - Highlight field tags in Script elements in HTML.
