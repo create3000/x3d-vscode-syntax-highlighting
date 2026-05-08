@@ -17,3 +17,5 @@ This software is licensed under the [MIT License](LICENSE.md).
 
 * [X_ITE VS Code Extension](https://marketplace.visualstudio.com/items?itemName=create3000.x-ite-vscode)
 * [X_ITE VS Code Formatter](https://marketplace.visualstudio.com/items?itemName=create3000.x-ite-vscode-formatter)
+* [Jekyll X3D](https://github.com/create3000/jekyll-x3d)
+* [Jekyll VRML](https://github.com/create3000/jekyll-vrml)
