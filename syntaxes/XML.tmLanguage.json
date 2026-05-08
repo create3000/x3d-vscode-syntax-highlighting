@@ -40,7 +40,7 @@
     },
     "xml-cdata-glsl": {
       "contentName": "source.glsl",
-      "begin": "<!\\[CDATA\\[\\s*(data:x-shader/x-(?:vertex|fragment)),",
+      "begin": "<!\\[CDATA\\[\\s*(data:x-shader/x-(?:vertex|fragment),)",
       "beginCaptures": {
         "0": {
           "name": "comment.block.xml"
