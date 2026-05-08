@@ -77,7 +77,8 @@
           ".wrl",
           ".vrml"
         ],
-        "configuration": "./x3dv.language-configuration.json"
+        "configuration": "./x3dv.language-configuration.json",
+        "firstLine": "#(VRML|X3D) V(.*?) (utf8)"
       },
       {
         "id": "xml",
