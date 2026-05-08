@@ -68,10 +68,10 @@
 				{
 					"begin": "(^|\\G)(\\s*)(.*)",
 					"while": "(^|\\G)(?!\\s*([`~]{3,})\\s*$)",
-					"contentName": "meta.embedded.block.x3d",
+					"contentName": "meta.embedded.block.x3dv",
 					"patterns": [
 						{
-							"include": "source.x3d"
+							"include": "source.x3dv"
 						}
 					]
 				}

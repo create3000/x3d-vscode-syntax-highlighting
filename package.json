@@ -66,16 +66,16 @@
   "contributes": {
     "languages": [
       {
-        "id": "X3D",
+        "id": "X3DV",
         "aliases": [
-          "X3D",
+          "X3DV",
           "VRML"
         ],
         "extensions": [
           ".x3dv",
           ".wrl"
         ],
-        "configuration": "./X3D.language-configuration.json"
+        "configuration": "./x3dv.language-configuration.json"
       },
       {
         "id": "xml",
@@ -92,15 +92,15 @@
     ],
     "snippets": [
       {
-        "language": "X3D",
-        "path": "./snippets/X3D.json"
+        "language": "X3DV",
+        "path": "./snippets/x3dv.json"
       }
     ],
     "grammars": [
       {
-        "language": "X3D",
-        "scopeName": "source.x3d",
-        "path": "./syntaxes/X3D.tmLanguage.json",
+        "language": "X3DV",
+        "scopeName": "source.x3dv",
+        "path": "./syntaxes/x3dv.tmLanguage.json",
         "embeddedLanguages": {
           "source.js": "javascript",
           "source.glsl": "glsl"
@@ -112,7 +112,7 @@
           "text.html"
         ],
         "scopeName": "xml.cdata.languages.x3d",
-        "path": "./syntaxes/XML.tmLanguage.json",
+        "path": "./syntaxes/xml.tmLanguage.json",
         "embeddedLanguages": {
           "source.js": "javascript",
           "source.glsl": "glsl"
@@ -123,7 +123,7 @@
           "text.html"
         ],
         "scopeName": "html.script.fields.x3d",
-        "path": "./syntaxes/HTML.tmLanguage.json",
+        "path": "./syntaxes/html.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.block.xml": "xml"
         }
@@ -136,7 +136,7 @@
         "path": "./syntaxes/markdown.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.block.xml": "xml",
-          "meta.embedded.block.x3d": "x3d"
+          "meta.embedded.block.x3dv": "x3dv"
         }
       }
     ]
