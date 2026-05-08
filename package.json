@@ -73,7 +73,8 @@
         ],
         "extensions": [
           ".x3dv",
-          ".wrl"
+          ".wrl",
+          ".vrml"
         ],
         "configuration": "./x3dv.language-configuration.json"
       },
