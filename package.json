@@ -113,7 +113,8 @@
         "scopeName": "markdown.embedded.x3d",
         "path": "./syntaxes/markdown.tmLanguage.json",
         "embeddedLanguages": {
-          "meta.embedded.block.xml": "xml"
+          "meta.embedded.block.xml": "xml",
+          "meta.embedded.block.x3d": "x3d"
         }
       },
       {
