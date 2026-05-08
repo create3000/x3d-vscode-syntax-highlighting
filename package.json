@@ -108,6 +108,16 @@
       },
       {
         "injectTo": [
+          "text.html.markdown"
+        ],
+        "scopeName": "markdown.embedded.x3d",
+        "path": "./syntaxes/markdown.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.xml": "xml"
+        }
+      },
+      {
+        "injectTo": [
           "text.xml",
           "text.html"
         ],
