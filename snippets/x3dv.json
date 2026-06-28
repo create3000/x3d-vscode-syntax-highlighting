@@ -200,6 +200,13 @@
       "SFNode"
     ]
   },
+  "SFQuaternion": {
+    "prefix": "SFQuaternion",
+    "description": "",
+    "body": [
+      "SFQuaternion"
+    ]
+  },
   "SFRotation": {
     "prefix": "SFRotation",
     "description": "",
@@ -408,6 +415,13 @@
     "description": "",
     "body": [
       "MFNode"
+    ]
+  },
+  "MFQuaternion": {
+    "prefix": "MFQuaternion",
+    "description": "",
+    "body": [
+      "MFQuaternion"
     ]
   },
   "MFRotation": {
@@ -1094,6 +1108,13 @@
     "description": "",
     "body": [
       "Gain { ${1:}}"
+    ]
+  },
+  "GaussianSplats": {
+    "prefix": "GaussianSplats",
+    "description": "",
+    "body": [
+      "GaussianSplats { ${1:}}"
     ]
   },
   "GeneratedCubeMapTexture": {
@@ -3525,6 +3546,13 @@
       "color"
     ]
   },
+  "colorDepth": {
+    "prefix": "colorDepth",
+    "description": "",
+    "body": [
+      "colorDepth"
+    ]
+  },
   "colorEquation": {
     "prefix": "colorEquation",
     "description": "",
@@ -3551,6 +3579,13 @@
     "description": "",
     "body": [
       "colorPerVertex"
+    ]
+  },
+  "colorSpace": {
+    "prefix": "colorSpace",
+    "description": "",
+    "body": [
+      "colorSpace"
     ]
   },
   "colorSpaceConversion": {
@@ -4750,6 +4785,13 @@
       "gustiness"
     ]
   },
+  "hasSound": {
+    "prefix": "hasSound",
+    "description": "",
+    "body": [
+      "hasSound"
+    ]
+  },
   "hatchColor": {
     "prefix": "hatchColor",
     "description": "",
@@ -5555,6 +5597,13 @@
       "maxFront"
     ]
   },
+  "maxNumberFrames": {
+    "prefix": "maxNumberFrames",
+    "description": "",
+    "body": [
+      "maxNumberFrames"
+    ]
+  },
   "maxParticles": {
     "prefix": "maxParticles",
     "description": "",
@@ -5588,13 +5637,6 @@
     "description": "",
     "body": [
       "maxTorque2"
-    ]
-  },
-  "maximumNumberFrames": {
-    "prefix": "maximumNumberFrames",
-    "description": "",
-    "body": [
-      "maximumNumberFrames"
     ]
   },
   "mediaDeviceID": {
@@ -6073,6 +6115,13 @@
       "on"
     ]
   },
+  "opacities": {
+    "prefix": "opacities",
+    "description": "",
+    "body": [
+      "opacities"
+    ]
+  },
   "opacityFactor": {
     "prefix": "opacityFactor",
     "description": "",
@@ -6113,6 +6162,13 @@
     "description": "",
     "body": [
       "orientation_changed"
+    ]
+  },
+  "orientations": {
+    "prefix": "orientations",
+    "description": "",
+    "body": [
+      "orientations"
     ]
   },
   "origin": {
@@ -6358,6 +6414,13 @@
     "description": "",
     "body": [
       "position_changed"
+    ]
+  },
+  "positions": {
+    "prefix": "positions",
+    "description": "",
+    "body": [
+      "positions"
     ]
   },
   "power": {
@@ -6787,6 +6850,27 @@
       "scatterAnisotropy"
     ]
   },
+  "scatterStrength": {
+    "prefix": "scatterStrength",
+    "description": "",
+    "body": [
+      "scatterStrength"
+    ]
+  },
+  "scatterStrengthTexture": {
+    "prefix": "scatterStrengthTexture",
+    "description": "",
+    "body": [
+      "scatterStrengthTexture"
+    ]
+  },
+  "scatterStrengthTextureMapping": {
+    "prefix": "scatterStrengthTextureMapping",
+    "description": "",
+    "body": [
+      "scatterStrengthTextureMapping"
+    ]
+  },
   "segmentEnabled": {
     "prefix": "segmentEnabled",
     "description": "",
@@ -7158,6 +7242,13 @@
       "silhouetteSharpness"
     ]
   },
+  "singleFrame": {
+    "prefix": "singleFrame",
+    "description": "",
+    "body": [
+      "singleFrame"
+    ]
+  },
   "siteID": {
     "prefix": "siteID",
     "description": "",
@@ -7457,6 +7548,118 @@
     "description": "",
     "body": [
       "speedFactor"
+    ]
+  },
+  "sphericalHarmonicsDegree0Coef0": {
+    "prefix": "sphericalHarmonicsDegree0Coef0",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree0Coef0"
+    ]
+  },
+  "sphericalHarmonicsDegree1Coef0": {
+    "prefix": "sphericalHarmonicsDegree1Coef0",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree1Coef0"
+    ]
+  },
+  "sphericalHarmonicsDegree1Coef1": {
+    "prefix": "sphericalHarmonicsDegree1Coef1",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree1Coef1"
+    ]
+  },
+  "sphericalHarmonicsDegree1Coef2": {
+    "prefix": "sphericalHarmonicsDegree1Coef2",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree1Coef2"
+    ]
+  },
+  "sphericalHarmonicsDegree2Coef0": {
+    "prefix": "sphericalHarmonicsDegree2Coef0",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree2Coef0"
+    ]
+  },
+  "sphericalHarmonicsDegree2Coef1": {
+    "prefix": "sphericalHarmonicsDegree2Coef1",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree2Coef1"
+    ]
+  },
+  "sphericalHarmonicsDegree2Coef2": {
+    "prefix": "sphericalHarmonicsDegree2Coef2",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree2Coef2"
+    ]
+  },
+  "sphericalHarmonicsDegree2Coef3": {
+    "prefix": "sphericalHarmonicsDegree2Coef3",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree2Coef3"
+    ]
+  },
+  "sphericalHarmonicsDegree2Coef4": {
+    "prefix": "sphericalHarmonicsDegree2Coef4",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree2Coef4"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef0": {
+    "prefix": "sphericalHarmonicsDegree3Coef0",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef0"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef1": {
+    "prefix": "sphericalHarmonicsDegree3Coef1",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef1"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef2": {
+    "prefix": "sphericalHarmonicsDegree3Coef2",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef2"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef3": {
+    "prefix": "sphericalHarmonicsDegree3Coef3",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef3"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef4": {
+    "prefix": "sphericalHarmonicsDegree3Coef4",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef4"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef5": {
+    "prefix": "sphericalHarmonicsDegree3Coef5",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef5"
+    ]
+  },
+  "sphericalHarmonicsDegree3Coef6": {
+    "prefix": "sphericalHarmonicsDegree3Coef6",
+    "description": "",
+    "body": [
+      "sphericalHarmonicsDegree3Coef6"
     ]
   },
   "spine": {
@@ -8388,6 +8591,13 @@
     "description": "",
     "body": [
       "whichGeometry"
+    ]
+  },
+  "width": {
+    "prefix": "width",
+    "description": "",
+    "body": [
+      "width"
     ]
   },
   "writeInterval": {
