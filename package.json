@@ -50,10 +50,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.6.0",
+    "eslint": "^10.7.0",
     "globals": "^17.7.0",
     "shell-tools": "^1.1.9",
-    "x_ite-node": "^2.0.30"
+    "x_ite-node": "^2.0.34"
   },
   "extensionPack": [
     "create3000.x-ite-vscode",
@@ -146,5 +146,8 @@
         }
       }
     ]
+  },
+  "allowScripts": {
+    "skia-canvas@3.0.8": true
   }
 }
