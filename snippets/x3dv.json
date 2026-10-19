@@ -1929,6 +1929,13 @@
       "RenderedTexture { ${1:}}"
     ]
   },
+  "RetroreflectionMaterialExtension": {
+    "prefix": "RetroreflectionMaterialExtension",
+    "description": "",
+    "body": [
+      "RetroreflectionMaterialExtension { ${1:}}"
+    ]
+  },
   "RigidBody": {
     "prefix": "RigidBody",
     "description": "",
@@ -3768,6 +3775,27 @@
     "description": "",
     "body": [
       "cutOffAngle"
+    ]
+  },
+  "cycleComplete": {
+    "prefix": "cycleComplete",
+    "description": "",
+    "body": [
+      "cycleComplete"
+    ]
+  },
+  "cycleCompleteTime": {
+    "prefix": "cycleCompleteTime",
+    "description": "",
+    "body": [
+      "cycleCompleteTime"
+    ]
+  },
+  "cycleCount": {
+    "prefix": "cycleCount",
+    "description": "",
+    "body": [
+      "cycleCount"
     ]
   },
   "cycleInterval": {
@@ -5646,6 +5674,13 @@
       "mediaDeviceID"
     ]
   },
+  "meshVertexIndex": {
+    "prefix": "meshVertexIndex",
+    "description": "",
+    "body": [
+      "meshVertexIndex"
+    ]
+  },
   "metadata": {
     "prefix": "metadata",
     "description": "",
@@ -6479,6 +6514,13 @@
       "proxy"
     ]
   },
+  "purpose": {
+    "prefix": "purpose",
+    "description": "",
+    "body": [
+      "purpose"
+    ]
+  },
   "qualityFactor": {
     "prefix": "qualityFactor",
     "description": "",
@@ -6708,6 +6750,27 @@
     "description": "",
     "body": [
       "retainedOpacity"
+    ]
+  },
+  "retroreflection": {
+    "prefix": "retroreflection",
+    "description": "",
+    "body": [
+      "retroreflection"
+    ]
+  },
+  "retroreflectionTexture": {
+    "prefix": "retroreflectionTexture",
+    "description": "",
+    "body": [
+      "retroreflectionTexture"
+    ]
+  },
+  "retroreflectionTextureMapping": {
+    "prefix": "retroreflectionTextureMapping",
+    "description": "",
+    "body": [
+      "retroreflectionTextureMapping"
     ]
   },
   "rightTexture": {
@@ -8234,6 +8297,13 @@
     "description": "",
     "body": [
       "transparency"
+    ]
+  },
+  "triggerFalse": {
+    "prefix": "triggerFalse",
+    "description": "",
+    "body": [
+      "triggerFalse"
     ]
   },
   "triggerTime": {
