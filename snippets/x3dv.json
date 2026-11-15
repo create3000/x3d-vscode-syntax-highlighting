@@ -564,6 +564,13 @@
       "BallJoint { ${1:}}"
     ]
   },
+  "BehaviorEngine": {
+    "prefix": "BehaviorEngine",
+    "description": "",
+    "body": [
+      "BehaviorEngine { ${1:}}"
+    ]
+  },
   "Billboard": {
     "prefix": "Billboard",
     "description": "",
@@ -1255,6 +1262,13 @@
     "description": "",
     "body": [
       "HAnimSite { ${1:}}"
+    ]
+  },
+  "HoverabilityExtension": {
+    "prefix": "HoverabilityExtension",
+    "description": "",
+    "body": [
+      "HoverabilityExtension { ${1:}}"
     ]
   },
   "IORMaterialExtension": {
@@ -1971,6 +1985,13 @@
       "ScalarInterpolator { ${1:}}"
     ]
   },
+  "ScatterMaterialExtension": {
+    "prefix": "ScatterMaterialExtension",
+    "description": "",
+    "body": [
+      "ScatterMaterialExtension { ${1:}}"
+    ]
+  },
   "ScreenFontStyle": {
     "prefix": "ScreenFontStyle",
     "description": "",
@@ -1997,6 +2018,13 @@
     "description": "",
     "body": [
       "SegmentedVolumeData { ${1:}}"
+    ]
+  },
+  "SelectabilityExtension": {
+    "prefix": "SelectabilityExtension",
+    "description": "",
+    "body": [
+      "SelectabilityExtension { ${1:}}"
     ]
   },
   "ShadedVolumeStyle": {
@@ -2445,13 +2473,6 @@
     "description": "",
     "body": [
       "VolumePickSensor { ${1:}}"
-    ]
-  },
-  "VolumeScatterMaterialExtension": {
-    "prefix": "VolumeScatterMaterialExtension",
-    "description": "",
-    "body": [
-      "VolumeScatterMaterialExtension { ${1:}}"
     ]
   },
   "WaveShaper": {
@@ -4785,6 +4806,20 @@
       "gradients"
     ]
   },
+  "graph": {
+    "prefix": "graph",
+    "description": "",
+    "body": [
+      "graph"
+    ]
+  },
+  "graphs": {
+    "prefix": "graphs",
+    "description": "",
+    "body": [
+      "graphs"
+    ]
+  },
   "gravity": {
     "prefix": "gravity",
     "description": "",
@@ -4916,6 +4951,13 @@
     "description": "",
     "body": [
       "horizontal"
+    ]
+  },
+  "hoverable": {
+    "prefix": "hoverable",
+    "description": "",
+    "body": [
+      "hoverable"
     ]
   },
   "image": {
@@ -6017,6 +6059,13 @@
       "next"
     ]
   },
+  "nodes": {
+    "prefix": "nodes",
+    "description": "",
+    "body": [
+      "nodes"
+    ]
+  },
   "normal": {
     "prefix": "normal",
     "description": "",
@@ -6773,6 +6822,13 @@
       "retroreflectionTextureMapping"
     ]
   },
+  "reverse": {
+    "prefix": "reverse",
+    "description": "",
+    "body": [
+      "reverse"
+    ]
+  },
   "rightTexture": {
     "prefix": "rightTexture",
     "description": "",
@@ -6953,6 +7009,13 @@
     "description": "",
     "body": [
       "segments"
+    ]
+  },
+  "selectable": {
+    "prefix": "selectable",
+    "description": "",
+    "body": [
+      "selectable"
     ]
   },
   "separateBackColor": {
